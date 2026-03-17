@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.landing-page{
+    padding: 0;
+    margin: 0;
+}
+.lp{
+    height: 100vh;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+
+}
+.lp-bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #0a0a0a;
+   
+}
+.lp-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #ff6b00;
+  /* clip-path: polygon(0 0, 48% 0, 72% 100%, 0 100%); */
+  clip-path: polygon(58% 0, 53% 0, 77% 100%, 82% 100%);
+  z-index: 3;
+}
+
+.lp-left{
+    position: absolute;
+  inset: 0;
+  background-color: #0a0a0a;
+  clip-path: polygon(0 0, 58% 0, 82% 100%, 0 100%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+.lp-right {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+.lp-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: sepia(20%) brightness(0.85);
+}
+.lp-text {
+  position: absolute;
+  top: 52%;
+  left: 5vw;
+  transform: translateY(-50%);
+  z-index: 4;
+  /* max-width: 520px; */
+  color: white;
+}
+.lp-text .FitnessVideo{
+  bottom: 10%;
+}
+
+.rfs-heading {
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(6.8rem, 5.5vw, 5rem);
+  line-height: 1.05;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  overflow: hidden;
+  max-width: 75%;
+  /* font-size: 2rem; */
+}
+
+.rfs-subtext {
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  color: #e0e0e0;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 10px;
+  /* font-family: 'Bebas Neue', sans-serif; */
+}
+
+.lp-video{
+  margin: 1rem;
+  border-radius: 2rem;
+  border: .5px solid rgba(255, 255, 255, 0.605);
+  max-width: max-content;
+  height: auto;
+  box-shadow: 5px 5px 5px #888888bb;
+}
+@media (max-width: 768px) {
+  .lp {
+    width: 100%;        /* ← fix the 100vw overflow */
+    height: auto;
+    min-height: 100vh;
+  }
+
+  /* Hide the right image completely */
+  .lp-right {
+    display: none;
+  }
+
+  /* Hide the diagonal orange slash — looks odd without the image */
+  .lp-bg::before {
+    display: none;
+  }
+
+  /* Hide the left dark panel — let bg color handle it */
+  .lp-left {
+    display: none;
+  }
+
+  /* Pure black background */
+  .lp-bg {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  /* Reposition text — no longer needs absolute positioning */
+  .lp-text {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: none;
+    padding: 6rem 1.5rem 2rem;
+    max-width: 100%;
+  }
+
+  /* Scale down the heading */
+  .rfs-heading {
+    font-size: clamp(4.5rem, 8vw, 4rem);
+    max-width: 100%;
+  }
+
+  /* Scale down the video */
+  .lp-video {
+    margin: 1rem 0;
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+  .lp-video video {
+    width: 100% !important;
+    height: auto !important;
+  }
+}

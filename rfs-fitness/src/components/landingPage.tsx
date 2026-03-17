@@ -1,0 +1,39 @@
+import '../styles/landingPage.css'
+import FitnessVideo from './fitnessVideo';
+const LandingPage = () =>{
+    return (
+    <div className='landing-page '>
+        
+        <div className='lp'>
+            <div className='lp-bg'>
+                 
+                <div className='lp-text'>
+                    
+                    <p className='rfs-heading'>REDEFINED FITNESS <span style={{color:"#ff6b00"}}>SOLUTION</span></p>
+                    <p className='rfs-subtext'>for busy professionals who have lost trust in diets and fitness plans</p>
+                    <p>Watch this short video before you try another program.<br/>
+                    It explains why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like.</p>
+                    <div className='lp-video'>
+                    <FitnessVideo
+                    id = {"lpVideo"}
+                    src ={"/RohitLP.mp4"}
+                    type = {"video/mp4"}
+                    controls={true}
+                    width={640}
+                    height={340}
+                    /></div>
+            </div>
+                <div className='lp-left'>
+                
+            </div>
+            <div className='lp-right'>
+                <img src='/lp.jpeg' alt='lp-img'/>
+            </div>
+            </div>
+            
+            
+          {/* //add video */}
+              </div>
+      </div>
+)}
+      export default LandingPage;

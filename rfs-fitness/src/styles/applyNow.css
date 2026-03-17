@@ -1,0 +1,13 @@
+.apply-now{
+      text-align: center;
+      background-color: #ff6b00;
+      border-radius: 25px;
+      text-transform: capitalize;
+      width: 9rem;
+      padding: .75rem;
+      display: inline-block;  
+      font-weight: bolder;
+      text-decoration: none;
+      color: white;
+    }
+    

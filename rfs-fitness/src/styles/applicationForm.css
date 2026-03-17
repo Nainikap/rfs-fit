@@ -1,0 +1,645 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap');
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0;  }
+
+        body {
+          background: #0b0c0e;
+          font-family: 'DM Sans', sans-serif;
+          color: #e8e2d9;
+          min-height: 100vh;
+        }
+
+        .application-page {
+            width: 100vw;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 40px 20px;
+          background: #f3f4f6;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .application-page::before {
+          content: '';
+          position: fixed;
+          top: -40%;
+          left: -20%;
+          width: 80vw;
+          height: 80vw;
+          background: radial-gradient(circle, rgba(201,163,94,0.06) 0%, transparent 70%);
+          pointer-events: none;
+        }
+
+        .application-page::after {
+          content: '';
+          position: fixed;
+          bottom: -30%;
+          right: -10%;
+          width: 60vw;
+          height: 60vw;
+          background: radial-gradient(circle, rgba(201,163,94,0.04) 0%, transparent 70%);
+          pointer-events: none;
+        }
+
+        .application-header {
+          text-align: center;
+          margin-bottom: 48px;
+          position: relative;
+          z-index: 1;
+          display: flex;
+          justify-content: center;
+        }
+        .application-header-text{
+            /* display: flex; */
+            flex-direction: column;
+        }
+        .back-btn{
+            position: absolute;
+            left: 0;
+             top: 0;
+            cursor: pointer;
+            padding: 1rem;
+            /* font-size: 5rem; */
+        }
+        .application-header-eyebrow {
+          font-family: 'DM Sans', sans-serif;
+          font-size: 11px;
+          font-weight: 500;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          color: #ff3c00;
+          margin-bottom: 12px;
+        }
+
+        .application-header-title {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: clamp(36px, 5vw, 56px);
+          font-weight: 300;
+          line-height: 1.1;
+          color: #0c0c0c;
+          margin-bottom: 8px;
+          overflow: hidden;
+        }
+
+        .application-header-title em {
+          font-style: italic;
+          color: #ff5900;
+        }
+
+        .application-header-sub {
+          font-size: 13px;
+          font-weight: 300;
+          color: #261e1b;
+          letter-spacing: 0.5px;
+        }
+
+        .divider {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          margin: 16px auto 0;
+          width: 180px;
+        }
+
+        .divider-line {
+          flex: 1;
+          height: 1px;
+          background: linear-gradient(to right, transparent, #c9a35e55);
+        }
+
+        .divider-dot {
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background: #ff6200;
+        }
+
+        .application-card {
+          display: flex;
+          width: 100%;
+          max-width: 960px;
+          background: #17100e;
+          border: 1px solid #4e3426;
+          border-radius: 2px;
+          overflow: hidden;
+          position: relative;
+          z-index: 1;
+          box-shadow: 0 40px 120px rgba(0,0,0,0.6), 0 0 0 1px rgba(201,163,94,0.04);
+        }
+
+        /* CALENDAR SIDE */
+        .cal-side {
+          flex: 1.1;
+          padding: 40px 36px;
+          border-right: 1px solid #1e2028;
+          background: #0e1014;
+        }
+
+        .cal-nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 28px;
+        }
+
+        .cal-month {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 22px;
+          font-weight: 400;
+          color: #e8e2d9;
+          letter-spacing: 0.5px;
+        }
+
+        .cal-year {
+          font-size: 13px;
+          font-weight: 300;
+          color: #5a5650;
+          margin-left: 8px;
+        }
+
+        .nav-btn {
+          background: none;
+          border: 1px solid #2a2c32;
+          color: #7a7468;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          border-radius: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.2s;
+          font-size: 14px;
+        }
+
+        .nav-btn:hover {
+          border-color: #c9a35e;
+          color: #ff6200;
+        }
+
+        .cal-grid {
+          display: grid;
+          grid-template-columns: repeat(7, 1fr);
+          gap: 2px;
+        }
+
+        .cal-day-application-header {
+          text-align: center;
+          font-size: 9px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          color: #3e3c38;
+          padding: 6px 0 12px;
+          text-transform: uppercase;
+        }
+
+        .cal-cell {
+          aspect-ratio: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 13px;
+          font-weight: 300;
+          color: #8a8478;
+          cursor: pointer;
+          border-radius: 2px;
+          position: relative;
+          transition: all 0.15s;
+          border: 1px solid transparent;
+        }
+
+        .cal-cell:hover:not(.past):not(.empty) {
+          background: rgba(201,163,94,0.08);
+          border-color: rgba(201,163,94,0.2);
+          color: #e8e2d9;
+        }
+
+        .cal-cell.past {
+          color: #58554f;
+          cursor: default;
+        }
+
+        .cal-cell.today {
+          color: #ff9500;
+          border-color: rgba(201,163,94,0.25);
+        }
+
+        .cal-cell.selected {
+          background: #ff7903;
+          color: #0b0c0e;
+          font-weight: 500;
+          border-color: #c9a35e;
+        }
+
+        .cal-cell.empty { cursor: default; }
+
+        /* TIME SIDE */
+        .time-side {
+          flex: 1;
+          padding: 40px 32px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .time-application-header {
+          margin-bottom: 24px;
+        }
+
+        .time-label {
+          font-size: 9px;
+          font-weight: 500;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #d1cec9;
+          margin-bottom: 8px;
+        }
+
+        .time-date-display {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 18px;
+          font-weight: 400;
+          color: #e8e2d9;
+          min-height: 26px;
+        }
+
+        .time-date-display.empty {
+          color: #d2cfca;
+          font-style: italic;
+          font-size: 14px;
+        }
+
+        .time-separator {
+          height: 1px;
+          background: #1e2028;
+          margin-bottom: 24px;
+        }
+
+        .slots-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 8px;
+          overflow-y: auto;
+          flex: 1;
+        }
+
+        .slots-grid::-webkit-scrollbar { width: 3px; }
+        .slots-grid::-webkit-scrollbar-track { background: transparent; }
+        .slots-grid::-webkit-scrollbar-thumb { background: #2a2c32; border-radius: 2px; }
+
+        .slot {
+          padding: 10px 14px;
+          border: 1px solid #1e2028;
+          border-radius: 2px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #e2d7ceaf;
+          cursor: pointer;
+          transition: all 0.15s;
+          text-align: center;
+          letter-spacing: 0.5px;
+          background: transparent;
+        }
+
+        .slot:hover:not(.unavailable):not(.disabled) {
+          border-color: #c9a35e;
+          color: #c9a35e;
+          background: rgba(201,163,94,0.05);
+        }
+
+        .slot.selected {
+          background: rgba(201,163,94,0.12);
+          border-color: #c9a35e;
+          color: #c9a35e;
+        }
+
+        .slot.unavailable {
+          color: #252422;
+          border-color: #181a1e;
+          cursor: not-allowed;
+          text-decoration: line-through;
+          text-decoration-color: #2e2c28;
+        }
+
+        .slot.disabled {
+          opacity: 0.3;
+          cursor: default;
+        }
+
+        .no-date-msg {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 12px;
+          color: #2e2c28;
+        }
+
+        .no-date-icon {
+          font-size: 32px;
+          opacity: 0.4;
+        }
+
+        .no-date-text {
+          font-size: 13px;
+          font-weight: 300;
+          letter-spacing: 0.5px;
+        }
+
+        /* MODAL */
+        .modal-overlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(0,0,0,0.85);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 100;
+          padding: 20px;
+          backdrop-filter: blur(4px);
+          animation: fadeIn 0.2s ease;
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        .modal {
+          background: #111318;
+          border: 1px solid #1e2028;
+          border-radius: 2px;
+          width: 100%;
+          max-width: 440px;
+          padding: 40px;
+          position: relative;
+          box-shadow: 0 40px 100px rgba(0,0,0,0.8);
+          animation: slideUp 0.25s ease;
+        }
+
+        .modal-close {
+          position: absolute;
+          top: 16px;
+          right: 16px;
+          background: none;
+          border: none;
+          color: #3e3c38;
+          cursor: pointer;
+          font-size: 18px;
+          width: 28px;
+          height: 28px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: color 0.15s;
+        }
+
+        .modal-close:hover { color: #e8e2d9; }
+
+        .modal-eyebrow {
+          font-size: 9px;
+          font-weight: 500;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #ff8800;
+          margin-bottom: 8px;
+        }
+
+        .modal-title {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 26px;
+          font-weight: 300;
+          color: #f0ece4;
+          margin-bottom: 4px;
+        }
+
+        .modal-booking-info {
+          font-size: 12px;
+          color: #807e7c;
+          margin-bottom: 28px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #1e2028;
+        }
+
+        .modal-booking-info span { color: #ea8f3f; }
+
+        .field {
+          margin-bottom: 16px;
+        }
+
+        .field-label {
+          font-size: 10px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #4a4845;
+          display: block;
+          margin-bottom: 8px;
+        }
+
+        .field-input {
+          width: 100%;
+          background: #0b0c0e;
+          border: 1px solid #1e2028;
+          border-radius: 2px;
+          padding: 12px 14px;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 13px;
+          font-weight: 300;
+          color: #e8e2d9;
+          outline: none;
+          transition: border-color 0.15s;
+        }
+
+        .field-input::placeholder { color: #2e2c28; }
+
+        .field-input:focus {
+          border-color: #c9a35e;
+        }
+
+        .field-input.error {
+          border-color: #8b3a3a;
+        }
+
+        .field-error {
+          font-size: 11px;
+          color: #8b3a3a;
+          margin-top: 5px;
+        }
+
+        .submit-btn {
+          width: 100%;
+          margin-top: 24px;
+          padding: 14px;
+          background: #e66400;
+          border: none;
+          border-radius: 2px;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 11px;
+          font-weight: 500;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #0b0c0e;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+
+        .submit-btn:hover {
+          background: #e87b15;
+          transform: translateY(-1px);
+          box-shadow: 0 8px 24px rgba(201,163,94,0.2);
+        }
+
+        .submit-btn:active { transform: translateY(0); }
+
+        /* CONFIRMATION */
+        .confirmation {
+            width: 100vw;
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 40px 20px;
+          background: #0b0c0e;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .confirmation::before {
+          content: '';
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          width: 600px;
+          height: 600px;
+          background: radial-gradient(circle, rgba(201,163,94,0.07) 0%, transparent 70%);
+          pointer-events: none;
+        }
+
+        .confirm-application-card {
+          background: #111318;
+          border: 1px solid #1e2028;
+          border-radius: 2px;
+          padding: 64px 56px;
+          max-width: 480px;
+          width: 100%;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+          animation: slideUp 0.4s ease;
+        }
+
+        .confirm-icon {
+          width: 56px;
+          height: 56px;
+          border: 1px solid rgba(201,163,94,0.4);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto 28px;
+          color: #ea6b16;
+          font-size: 22px;
+        }
+
+        .confirm-eyebrow {
+          font-size: 9px;
+          font-weight: 500;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          color: #e69100;
+          margin-bottom: 16px;
+        }
+
+        .confirm-title {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 36px;
+          font-weight: 300;
+          color: #f0ece4;
+          line-height: 1.2;
+          margin-bottom: 16px;
+        }
+
+        .confirm-title em {
+          font-style: italic;
+          color: #ed7711;
+        }
+
+        .confirm-body {
+          font-size: 13px;
+          font-weight: 300;
+          color: #5a5650;
+          line-height: 1.7;
+          margin-bottom: 36px;
+        }
+
+        .confirm-details {
+          background: #0b0c0e;
+          border: 1px solid #1e2028;
+          border-radius: 2px;
+          padding: 20px 24px;
+          margin-bottom: 36px;
+          text-align: left;
+        }
+
+        .confirm-detail-row {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 6px 0;
+          border-bottom: 1px solid #1e2028;
+        }
+
+        .confirm-detail-row:last-child { border-bottom: none; }
+
+        .confirm-detail-key {
+          font-size: 9px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #3e3c38;
+        }
+
+        .confirm-detail-val {
+          font-size: 12px;
+          color: #de9332;
+        }
+
+        .confirm-back-btn {
+          background: none;
+          border: 1px solid #2a2c32;
+          border-radius: 2px;
+          padding: 12px 28px;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 10px;
+          font-weight: 500;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #5a5650;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+
+        .confirm-back-btn:hover {
+          border-color: #c9a35e;
+          color: #c9a35e;
+        }
+
+        @media (max-width: 680px) {
+          .application-card { flex-direction: column; }
+          .cal-side { border-right: none; border-bottom: 1px solid #1e2028; }
+          .time-side { min-height: 300px; }
+          .slots-grid { grid-template-columns: repeat(3, 1fr); }
+          .modal { padding: 28px 24px; }
+          .confirm-application-card { padding: 40px 28px; }
+        }
+      

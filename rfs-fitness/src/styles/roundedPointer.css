@@ -1,0 +1,27 @@
+.ptr-box {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  flex: 1 1 200px;     
+  min-width: 0; 
+}
+
+.ptr-dot {
+  width: 14px;
+  height: 14px;
+  min-width: 14px;      
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.ptr-text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: black;
+  margin: 0;
+
+}

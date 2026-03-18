@@ -161,9 +161,9 @@ body {
   color: #1f1a1a;
   text-align: left;
   font-family: Anton, sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: normal;
-  line-height: 1.2;
+  line-height: 1.4;
   overflow: hidden;
 }
 
@@ -172,10 +172,10 @@ body {
 }
 
 .section-3-right-text {
-  background-color: #2d2525;
+  background-color: #f3f2f2;
   border-radius: 5rem;
   flex-direction: column;
-  max-width: 32rem;
+  max-width: 28rem;
   max-height: max-content;
   margin: 2rem;
   padding: 1rem;
@@ -202,7 +202,7 @@ body {
   text-transform: uppercase;
   padding: 0 1rem;
   font-family: Anton, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   overflow: hidden;
 }
 
@@ -216,6 +216,7 @@ body {
   }
 
   .left-text-body {
+    text-align: center;
     font-size: 1.2rem;
   }
 
@@ -237,7 +238,7 @@ body {
   background-color: #d7d3d3;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1.5rem 3rem;
+  padding: 1rem 1.5rem 3rem;
   display: flex;
 }
 
@@ -245,7 +246,7 @@ body {
   color: orange;
   text-transform: uppercase;
   text-align: center;
-  padding: .5rem;
+  padding: .5rem .5rem 1rem;
   font-family: Bebas Neue, sans-serif;
   font-size: 5rem;
   font-weight: bolder;
@@ -253,10 +254,9 @@ body {
 
 .section-4 .section-points {
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
+  justify-content: space-evenly;
+  gap: 5rem;
   width: 100%;
-  max-width: 1200px;
   display: flex;
 }
 
@@ -298,6 +298,12 @@ body {
   display: none;
 }
 
+.section-5 video {
+  flex-shrink: 0;
+  width: 640px;
+  height: 640px;
+}
+
 .section-5 .scroll-arrow {
   z-index: 10;
   color: #fff;
@@ -324,9 +330,9 @@ body {
 
 @media (max-width: 768px) {
   .section-5 .section-5-containers video {
-    width: 90vw;
+    flex-shrink: 0;
+    width: 80vw;
     height: auto;
-    overflow: auto;
   }
 }
 
@@ -342,6 +348,7 @@ body {
   text-transform: uppercase;
   color: #000;
   max-width: 300px;
+  padding-left: 2rem;
   font-family: Anton, sans-serif;
   font-size: 3rem;
 }
@@ -363,6 +370,7 @@ body {
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .left-text {
@@ -424,7 +432,7 @@ body {
 
 .section-8 .subsection .boxes {
   justify-content: space-evenly;
-  gap: 2rem;
+  gap: 5rem;
   display: flex;
 }
 
@@ -445,9 +453,11 @@ body {
   .section-8 .subsection .boxes {
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
   }
 
   .section-8 .subsection .boxes .box-in {
+    gap: 2rem;
     width: 100%;
     max-width: 20rem;
   }
@@ -474,6 +484,7 @@ body {
 
 .section-9 .graph {
   text-align: center;
+  height: 50vh;
   padding: 1rem;
 }
 

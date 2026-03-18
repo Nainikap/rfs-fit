@@ -1628,7 +1628,7 @@ const FitnessVideo = ({ id, src, type, controls, width, height })=>{
                     lineNumber: 23,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
-                "Your browser does not support the video tag."
+                "Your browser does not support the video."
             ]
         }, void 0, true, {
             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/components/fitnessVideo.tsx",

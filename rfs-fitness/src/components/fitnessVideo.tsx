@@ -14,14 +14,14 @@ const FitnessVideo = ({
     type,
     controls,
     width,
-    height
+    height,
 }: VideoSource) => {
 
     return(
         <div id={id} className='video-layout'>
             <video controls={controls} width={width} height={height}>
                 <source src={src} type={type}/>
-                Your browser does not support the video tag.
+                Your browser does not support the video.
             </video>
         </div>
     )

@@ -22,8 +22,8 @@ const CARDS = [
 ];
 const mistakes = [
   {text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
-  {text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
-  {text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."}
+  {text: "Relying on Motivation Motivation fades. Systems don’t."},
+  {text: "Ignoring Stress & Lifestyle Stress-driven hunger is real."}
 ]
 const videos = [
   {id: "1", src: "/vid1.MP4", type: "video/mp4"},
@@ -94,9 +94,9 @@ approach that works for</p>
         </div>
         <div className='section-points'>
           <RoundedPointer text={"Start over every Monday"}/>
-          <RoundedPointer text={"Start over every Monday"}/>
-          <RoundedPointer text={"Start over every Monday"}/>
-          <RoundedPointer text={"Start over every Monday"}/>
+          <RoundedPointer text={"Feeling guilty after meals"}/>
+          <RoundedPointer text={"Forcing workouts you hate"}/>
+          <RoundedPointer text={"Relying on motivation"}/>
         </div>
       </div>
       <div className='section-5'>
@@ -157,8 +157,8 @@ approach that works for</p>
       </div>
       <div className='boxes'>
         <div className='box-in'>predictable progress</div>
-        <div className='box-in'>predictable progress</div>
-        <div className='box-in'>predictable progress</div>
+        <div className='box-in'>Less food stress</div>
+        <div className='box-in'>A plan that fits life</div>
         
       </div>
       <ApplyNow/>
@@ -183,9 +183,9 @@ approach that works for</p>
     <div className='body'>
       <ol>
         <li>force yourself to the gym when you're tired</li>
-        <li>force yourself to the gym when you're tired</li>
-        <li>force yourself to the gym when you're tired</li>
-        <li>force yourself to the gym when you're tired</li>
+        <li>Eat chicken & broccoli for the rest of your life</li>
+        <li>Count calories like it’s your second job</li>
+        <li>Feel guilty every time you slip</li>
       </ol>
     </div>
   </div>

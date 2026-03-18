@@ -253,12 +253,6 @@
   display: none;
 }
 
-.section-5 video {
-  flex-shrink: 0;
-  width: 640px;
-  height: 640px;
-}
-
 .section-5 .scroll-arrow {
   z-index: 10;
   color: #fff;
@@ -293,7 +287,8 @@
 
 .section-6 {
   background-color: #d7d3d3;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   padding: 3rem 2rem 2rem;
   display: flex;
@@ -302,10 +297,12 @@
 .left-text {
   text-transform: uppercase;
   color: #000;
-  max-width: 300px;
+  max-width: 350px;
   padding-left: 2rem;
   font-family: Anton, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
+  line-height: 1;
+  overflow: hidden;
 }
 
 .right-grid {
@@ -444,8 +441,8 @@
 }
 
 .section-10 {
-  text-align: center;
   flex-direction: column;
+  justify-content: center;
   padding: 3rem 3rem 1rem;
   display: flex;
 }
@@ -459,7 +456,7 @@
 }
 
 .section-10 .body {
-  text-align: center;
+  text-align: justify;
   font-size: 1.2rem;
 }
 
@@ -470,6 +467,9 @@
 }
 
 .section-10 .body ol {
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
   list-style-type: disc;
   list-style-position: inside;
 }

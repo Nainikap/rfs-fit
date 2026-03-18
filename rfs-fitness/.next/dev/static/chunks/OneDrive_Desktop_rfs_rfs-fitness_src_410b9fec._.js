@@ -1751,7 +1751,7 @@ const LandingPage = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "lp-right",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "/lp.jpeg",
+                            src: "/lp.png",
                             alt: "lp-img"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/components/landingPage.tsx",
@@ -1848,10 +1848,10 @@ const mistakes = [
         text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."
     },
     {
-        text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."
+        text: "Relying on Motivation Motivation fades. Systems don’t."
     },
     {
-        text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."
+        text: "Ignoring Stress & Lifestyle Stress-driven hunger is real."
     }
 ];
 const videos = [
@@ -2134,21 +2134,21 @@ function Home() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Start over every Monday"
+                                text: "Feeling guilty after meals"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                 lineNumber: 97,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Start over every Monday"
+                                text: "Forcing workouts you hate"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                 lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Start over every Monday"
+                                text: "Relying on motivation"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                 lineNumber: 99,
@@ -2326,7 +2326,7 @@ function Home() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "box-in",
-                                    children: "predictable progress"
+                                    children: "Less food stress"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                     lineNumber: 160,
@@ -2334,7 +2334,7 @@ function Home() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "box-in",
-                                    children: "predictable progress"
+                                    children: "A plan that fits life"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                     lineNumber: 161,
@@ -2420,21 +2420,21 @@ function Home() {
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "force yourself to the gym when you're tired"
+                                    children: "Eat chicken & broccoli for the rest of your life"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                     lineNumber: 186,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "force yourself to the gym when you're tired"
+                                    children: "Count calories like it’s your second job"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                     lineNumber: 187,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "force yourself to the gym when you're tired"
+                                    children: "Feel guilty every time you slip"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                     lineNumber: 188,

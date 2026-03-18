@@ -1,3 +1,5 @@
+"use client"
+
 import '../styles/CalenderPlan.css'
 
 type CalenderPlanProps = {

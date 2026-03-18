@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/rfs/rfs-fitness/src/styles/MistakeContainer.css"],"sourcesContent":[".container{\r\n    background-color: white;\r\n    border-radius: 1rem;\r\n    /* border: 1px solid gray; */\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 1rem;\r\n}\r\n.container-even{\r\n    background-color: orangered;\r\n    border-radius: 1rem;\r\n    border: 1px solid rgb(47, 45, 45);\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 1rem;\r\n}\r\n\r\n.heading{\r\n    font-family: 'Anton', sans-serif;\r\n    font-size: 1.2rem;\r\n    text-transform: capitalize;\r\n    color: black;\r\n}\r\n.description{\r\n    color: black;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;AASA;;;;;;;AAMA"}}]
+}

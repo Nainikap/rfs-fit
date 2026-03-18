@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/naini/OneDrive/Desktop/rfs/rfs-fitness/src/index.css"],"sourcesContent":[":root {\n  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;\n  /* line-height: 1.5; */\n  font-weight: 400;\n\n  color-scheme: light dark;\n  color: rgba(255, 255, 255, 0.87);\n  background-color: #242424;\n\n  font-synthesis: none;\n  /* text-rendering: optimizeLegibility; */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n\nbody {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  /* place-items: center; */\n  min-width: 320px;\n  min-height: 100vh;\n}\n\n/* * {\n  scrollbar-width: none;       \n  -ms-overflow-style: none;     \n}\n\n*::-webkit-scrollbar {\n  display: none;              \n} */\n\n@media (prefers-color-scheme: light) {\n  :root {\n    color: #213547;\n    background-color: #ffffff;\n  }\n  a:hover {\n    color: #747bff;\n  }\n  button {\n    background-color: #f9f9f9;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAAA;EAAA;;;;;;AAgBA;;;;;;;;AAkBA;EACE;;;;;EAIA;;;;EAGA"}}]
+}

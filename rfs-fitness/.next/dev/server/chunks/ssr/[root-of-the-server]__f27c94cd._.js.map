@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/naini/OneDrive/Desktop/rfs/rfs-fitness/src/app/page.tsx"],"sourcesContent":["import dynamic from 'next/dynamic';\r\n\r\nconst App = dynamic(() => import('../App'), { ssr: false });\r\n\r\nexport default function Home() {\r\n  return <App />;\r\n}"],"names":[],"mappings":";;;;;AAAA;;;;AAEA,MAAM,MAAM,IAAA,0NAAO,EAAC;;;;;;IAA0B,KAAK;;AAEpC,SAAS;IACtB,qBAAO,8RAAC;;;;;AACV"}}]
+}

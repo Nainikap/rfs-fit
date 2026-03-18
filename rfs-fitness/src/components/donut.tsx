@@ -1,4 +1,5 @@
-// import react from "react";
+"use client"
+
 import "../chartConfig";
 import { Doughnut } from "react-chartjs-2";
 import type { ChartData, ChartOptions } from "chart.js";

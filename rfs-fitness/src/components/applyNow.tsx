@@ -1,6 +1,7 @@
+"use client"
 
 import {BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
-import '../styles/applyNow.css'
+import '../styles/ApplyNow.css'
 import ApplicationForm from './applicationForm';
 <BrowserRouter>
   <Routes>

@@ -1,3 +1,5 @@
+"use client"
+
 import '../styles/MistakeContainer.css'
 
 type MistakeContainerProps = {

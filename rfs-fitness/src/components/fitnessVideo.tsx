@@ -1,4 +1,4 @@
-// import '../styles/fitnessVideo.css'
+"use client"
 
 interface VideoSource{
     id: string;

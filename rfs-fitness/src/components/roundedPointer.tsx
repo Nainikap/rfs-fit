@@ -1,4 +1,6 @@
-import '../styles/roundedPointer.css'
+"use client"
+
+import '../styles/RoundedPointer.css'
 
 type RoundedPointerProps = {
   text: string;

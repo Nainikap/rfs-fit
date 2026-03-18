@@ -1,4 +1,6 @@
-import '../styles/landingPage.css'
+"use client"
+
+import '../styles/LandingPage.css'
 import FitnessVideo from './fitnessVideo';
 const LandingPage = () =>{
     return (

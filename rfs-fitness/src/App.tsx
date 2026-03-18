@@ -1,18 +1,19 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+"use client"
+import { Routes, Route } from "react-router-dom";
+import ClientRouter from "./components/ClientRouter";
 import ApplicationForm from "./components/applicationForm";
 import Home from "./home";
 
 function App() {
   return (
     
-    <BrowserRouter>
-      {/* <ApplyNow /> */}
-      {/* <Home/> */}
+    <ClientRouter>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/apply" element={<ApplicationForm />} />
       </Routes>
-    </BrowserRouter>
+    </ClientRouter>
   );
 }
 

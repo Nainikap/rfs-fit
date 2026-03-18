@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/rfs/rfs-fitness/src/styles/ApplyNow.css"],"sourcesContent":[".apply-now{\r\n      text-align: center;\r\n      background-color: #ff6b00;\r\n      border-radius: 25px;\r\n      text-transform: capitalize;\r\n      width: 9rem;\r\n      padding: .75rem;\r\n      display: inline-block;  \r\n      font-weight: bolder;\r\n      text-decoration: none;\r\n      color: white;\r\n    }\r\n    "],"names":[],"mappings":"AAAA"}}]
+}

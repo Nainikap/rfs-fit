@@ -1,5 +1,7 @@
+"use client"
+
 import { useState } from "react";
-import '../styles/applicationForm.css'
+import '../styles/ApplicationForm.css'
 import { NavLink } from "react-router-dom";
 const DAYS = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 const MONTHS = [
@@ -23,7 +25,7 @@ export default function ApplicationForm() {
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
   const [showModal, setShowModal] = useState(false);
   const [confirmed, setConfirmed] = useState(false);
-  const [form, setForm] = useState({ name: "", email: "", phone: "" });
+  const [form, setForm] = useState({ name: "", email: "", phone: "", honeypot: "" });
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const firstDay = new Date(viewYear, viewMonth, 1).getDay();
@@ -75,15 +77,18 @@ export default function ApplicationForm() {
     const e = validate();
     if (Object.keys(e).length) { setErrors(e); return; }
     try{
-    const res = await fetch('https://your-backend.up.railway.app/api/register', {
+    const res = await fetch('api/send-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({name:form.name, email:form.email, contact:form.phone, timeSlot:selectedTime })  
+      body: JSON.stringify({name:form.name, email:form.email, contact:form.phone, timeSlot:selectedTime, honeypot: form.honeypot })  
     });
+    
 
     if (!res.ok) throw new Error('Request failed');   // manual error check
     const data = await res.json();  
+    if (data.success)
     console.log("success", data); 
+  else console.log("something went wrong")
         }
     catch(err){
       console.error("error",err);
@@ -140,7 +145,7 @@ export default function ApplicationForm() {
               setConfirmed(false);
               setSelectedDate(null);
               setSelectedTime(null);
-              setForm({ name: "", email: "", phone: "" });
+              setForm({ name: "", email: "", phone: "", honeypot:"" });
             }}>
               Book Another Session
             </button>
@@ -282,10 +287,11 @@ export default function ApplicationForm() {
                 <div className="field">
                   <label className="field-label">Full Name</label>
                   <input
+                  
                     className={`field-input${errors.name ? " error" : ""}`}
                     placeholder="Jane Smith"
                     value={form.name}
-                    onChange={e => { setForm(f => ({ ...f, name: e.target.value })); setErrors(er => ({ ...er, name: "" })); }}
+                    onChange={e => { setForm(f => ({ ...f, name: e.target.value,  })); setErrors(er => ({ ...er, name: "" })); }}
                   />
                   {errors.name && <div className="field-error">{errors.name}</div>}
                 </div>
@@ -313,7 +319,14 @@ export default function ApplicationForm() {
                   />
                   {errors.phone && <div className="field-error">{errors.phone}</div>}
                 </div>
-
+                <input
+                  type="text"
+                  name="honeypot"
+                  style={{ display: 'none' }}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  onChange={(e) => setForm(f=> ({ ...f, honeypot: e.target.value }))}
+                />
                 <button className="submit-btn" onClick={handleSubmit}>
                   Confirm Booking
                 </button>

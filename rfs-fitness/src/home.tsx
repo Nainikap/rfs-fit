@@ -1,3 +1,4 @@
+"use client"
 import { useRef } from 'react'
 import Navbar from './components/navbar'
 import './App.css'

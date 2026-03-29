@@ -8,21 +8,23 @@ const LandingPage = () =>{
         
         <div className='lp'>
             <div className='lp-bg'>
+    <div style={{ height: "90px" }} />
                  
                 <div className='lp-text'>
                     
                     <p className='rfs-heading'>REDEFINED FITNESS <span style={{color:"#ff6b00"}}>SOLUTION</span></p>
-                    <p className='rfs-subtext'>for busy professionals who have lost trust in diets and fitness plans</p>
-                    <p>Watch this short video before you try another program.<br/>
-                    Why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like.</p>
+                    <p className='rfs-subtext'>For busy professionals who have lost trust in diets and fitness plans</p>
+                    <p>Why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like.<br/>
+                        Watch this short video before you try another program.<br/>
+                    .</p>
                     <div className='lp-video'>
                     <FitnessVideo
                     id = {"lpVideo"}
                     src ={"/RohitLP.mp4"}
                     type = {"video/mp4"}
                     controls={true}
-                    width={640}
-                    height={340}
+                    width={720}
+                    height={390}
                     /></div>
             </div>
                 <div className='lp-left'>

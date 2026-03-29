@@ -18,12 +18,12 @@ const FitnessVideo = ({
 }: VideoSource) => {
 
     return(
-        <div id={id} className='video-layout'>
+        
             <video controls={controls} width={width} height={height}>
                 <source src={src} type={type}/>
                 Your browser does not support the video.
             </video>
-        </div>
+       
     )
 };
 export default FitnessVideo;

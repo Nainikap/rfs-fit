@@ -1,17 +1,19 @@
 /* [project]/OneDrive/Desktop/rfs/rfs-fitness/src/styles/MistakeContainer.css [app-client] (css) */
 .container {
-  -webkit-backdrop-filter: blur(12px);
-  background: linear-gradient(135deg, #ff8c3273 0%, #ff641440 100%);
-  border: 2px solid #ffa05080;
-  border-radius: 1rem;
+  text-align: center;
+  border: 2px solid #cac2be58;
+  border-radius: 2.5rem;
   flex-direction: column;
   flex: 1;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
-  padding: 1rem;
+  width: auto;
+  min-height: 300px;
+  padding: 1.5rem;
+  transition: transform .3s, box-shadow .3s;
   display: flex;
-  box-shadow: 0 4px 24px #ff782826, inset 0 1px #fff9;
+  transform: translateZ(20px);
+  box-shadow: 0 10px 20px #0003;
 }
 
 .container-even {
@@ -31,6 +33,8 @@
 
 .description {
   color: #000;
+  font-family: Times New Roman, Times, serif;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=OneDrive_Desktop_rfs_rfs-fitness_src_styles_MistakeContainer_css_bad6b30c._.single.css.map*/

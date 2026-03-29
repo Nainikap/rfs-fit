@@ -1,5 +1,5 @@
 "use client"
-import { useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Navbar from './components/navbar'
 import './App.css'
 import './components/roundedPointer'
@@ -31,18 +31,39 @@ const videos = [
   {id: "3", src: "/vid3.MP4", type: "video/mp4"},
 ]
 
-
 function Home() {
 
+const [scrollDirection, setScrollDirection] = useState("right");
 
   const scrollRef = useRef<HTMLDivElement>(null);
+ useEffect(() => {
+  const container = scrollRef.current;
+  if (!container) return;
+
+  const handleScroll = () => {
+    const atEnd = container.scrollLeft + container.clientWidth >= container.scrollWidth - 10;
+    setScrollDirection(atEnd ? "left" : "right");
+  };
+
+  container.addEventListener('scroll', handleScroll);
+  return () => container.removeEventListener('scroll', handleScroll);
+}, []);
   const scrollRight = () =>{
-    scrollRef.current?.scrollBy({ left: 660, behavior: 'smooth' });
+const video = scrollRef.current?.querySelector('video');
+  const scrollAmount = video?.offsetWidth ?? 640;
+  if (scrollDirection==="right")
+  scrollRef.current?.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+else
+  scrollRef.current?.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+
   }
+
   return (
     <>
     <div className='navBar' >
-        <Navbar/></div>
+        <Navbar/>
+        </div>
+        
 <LandingPage/>
       {/* section 2 */}
       <div className='section-2'>
@@ -56,7 +77,7 @@ function Home() {
           <div className='section-2-compare'>
             <img src='/transformation 1A.jpeg' alt='transformation'/>
             <img src='/transformation 1B.jpeg' alt='transformation'/>
-            <img src='/transformation 2A.jpeg' alt='transformation'/>
+            <img src='/transformation 2A.png' alt='transformation'/>
             <img src='/transformation 2B.jpeg' alt='transformation'/>
           </div>
            <div className='section-2-compare'>
@@ -117,7 +138,7 @@ approach that works for</p>
               ))
             }
           </div>
-          <div className='scroll-arrow' onClick={scrollRight}>
+          <div className='scroll-arrow' onClick={scrollRight} style={{ transform: scrollDirection === "right" ? "rotate(0deg)" : "rotate(180deg)" }}>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
 </svg>
@@ -143,8 +164,8 @@ approach that works for</p>
     </div> */}
     <div className='containers'>
        {mistakes.map((mistake, i) => (
-        <div style={{display:"flex", flex:"1", paddingTop: "8px"}} key={i}>
-          <MistakeContainer text={mistake.text} num={i+1}/>
+        <div style={{display:"flex", flex:"1", padding: "0.5rem"}} key={i}>
+          <MistakeContainer text={mistake.text} num={i+1} />
         </div>
       ))}
     </div>

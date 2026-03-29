@@ -711,12 +711,12 @@ body {
 }
 
 .header {
-  background-color: #d4cbc2cc;
+  background-color: #d9bda1cc;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
   width: 600px;
-  padding: 15px 40px;
+  padding: 20px 40px;
   transition: background-color .4s, -webkit-backdrop-filter .4s, backdrop-filter .4s, box-shadow .4s;
   display: flex;
 }
@@ -823,18 +823,20 @@ body {
 
 /* [project]/OneDrive/Desktop/rfs/rfs-fitness/src/styles/MistakeContainer.css [app-client] (css) */
 .container {
-  -webkit-backdrop-filter: blur(12px);
-  background: linear-gradient(135deg, #ff8c3273 0%, #ff641440 100%);
-  border: 2px solid #ffa05080;
-  border-radius: 1rem;
+  text-align: center;
+  border: 2px solid #cac2be58;
+  border-radius: 2.5rem;
   flex-direction: column;
   flex: 1;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
-  padding: 1rem;
+  width: auto;
+  min-height: 300px;
+  padding: 1.5rem;
+  transition: transform .3s, box-shadow .3s;
   display: flex;
-  box-shadow: 0 4px 24px #ff782826, inset 0 1px #fff9;
+  transform: translateZ(20px);
+  box-shadow: 0 10px 20px #0003;
 }
 
 .container-even {
@@ -854,6 +856,8 @@ body {
 
 .description {
   color: #000;
+  font-family: Times New Roman, Times, serif;
+  font-size: 1.2rem;
 }
 
 /* [project]/OneDrive/Desktop/rfs/rfs-fitness/src/styles/ApplyNow.css [app-client] (css) */
@@ -863,11 +867,31 @@ body {
   color: #fff;
   background-color: #ff6b00;
   border-radius: 25px;
-  width: 9rem;
-  padding: .75rem;
+  width: 15rem;
+  padding: 1rem;
+  font-size: 23px;
   font-weight: bolder;
   text-decoration: none;
+  transition: transform .3s, box-shadow .3s;
   display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.apply-now:after {
+  content: "";
+  background: linear-gradient(120deg, #0000 0%, #ffffff8c 50%, #0000 100%);
+  width: 60%;
+  height: 100%;
+  transition: left .5s;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transform: skewX(-20deg);
+}
+
+.apply-now:hover:after {
+  left: 150%;
 }
 
 /* [project]/OneDrive/Desktop/rfs/rfs-fitness/src/styles/LandingPage.css [app-client] (css) */
@@ -903,7 +927,7 @@ body {
 .lp-left {
   clip-path: polygon(0 0, 58% 0, 82% 100%, 0 100%);
   z-index: 2;
-  background-color: #d8d7d5;
+  background-color: #d9d4c9;
   align-items: center;
   padding-left: 5vw;
   display: flex;
@@ -982,7 +1006,7 @@ body {
   }
 
   .lp-bg {
-    background-color: #0a0a0a;
+    background-color: #d9d4c9;
     width: 100%;
     height: auto;
     min-height: 100vh;

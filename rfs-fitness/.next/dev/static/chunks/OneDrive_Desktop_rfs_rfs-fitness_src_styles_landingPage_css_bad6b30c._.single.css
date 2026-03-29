@@ -31,7 +31,7 @@
 .lp-left {
   clip-path: polygon(0 0, 58% 0, 82% 100%, 0 100%);
   z-index: 2;
-  background-color: #d8d7d5;
+  background-color: #d9d4c9;
   align-items: center;
   padding-left: 5vw;
   display: flex;
@@ -110,7 +110,7 @@
   }
 
   .lp-bg {
-    background-color: #0a0a0a;
+    background-color: #d9d4c9;
     width: 100%;
     height: auto;
     min-height: 100vh;

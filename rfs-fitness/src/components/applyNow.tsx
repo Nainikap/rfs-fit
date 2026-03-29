@@ -13,14 +13,9 @@ const ApplyNow = () =>{
     return(
         <nav>
 
-           {/* <Link to={`courses/${course}`}>{course}</Link> */}
            <NavLink to={"/apply"}>
         <div className='apply-now'>apply now</div>
-            
             </NavLink>
-            {/* <Routes>
-                <Route path="courses/:courseId" element={<ApplicationForm />} />
-            </Routes> */}
         </nav>
     )
 

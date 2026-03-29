@@ -9,7 +9,7 @@ type MistakeContainerProps = {
 
 const MistakeContainer = ({ text,num }: MistakeContainerProps) => {
     return(
-        <div>
+        
             <div className={`container`}>
                 <div className="heading">
                   {/* Mistake {" "} {num.toString()} */}
@@ -19,7 +19,7 @@ const MistakeContainer = ({ text,num }: MistakeContainerProps) => {
 
                 </div>
             </div>
-        </div>
+        
     )
 };
 export default MistakeContainer;

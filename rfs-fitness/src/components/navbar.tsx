@@ -13,6 +13,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroller);
   }, []);
   return (
+    <>
     <div className="nav">
       <header className={`header ${scroller ? "scrolled" : ""}`}>
         <nav className="navbar">
@@ -21,7 +22,9 @@ const Navbar = () => {
           <a  href="/apply">APPLY NOW</a>
         </nav>
       </header>
+      
     </div>
+    </>
   );
 };
 

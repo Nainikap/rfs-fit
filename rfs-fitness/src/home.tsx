@@ -21,9 +21,9 @@ const CARDS = [
   { text: "build better habits" },
 ];
 const mistakes = [
-  {text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
-  {text: "Relying on Motivation Motivation fades. Systems don’t."},
-  {text: "Ignoring Stress & Lifestyle Stress-driven hunger is real."}
+  {text: "Stop overcomplicating everything tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
+  {text: "Stop relying on motivation. Motivation fades systems don’t."},
+  {text: "Stop ignoring stress & lifestyle. Stress-driven hunger is real."}
 ]
 const videos = [
   {id: "1", src: "/vid1.MP4", type: "video/mp4"},
@@ -69,7 +69,7 @@ function Home() {
           </div>
       </div>
       {/* section 3 */}
-      <div className='section-3'>
+      {/* <div className='section-3'>
         <div className='section-3-left-text'>
           <div className='left-text-heading'
         >nothing works.</div>
@@ -82,18 +82,19 @@ function Home() {
           </div>
           
         </div>
+        <div className='divider'/>
         <div className='section-3-right-text'>
           <p className='right-text-top'> It’s time for an 
 approach that works for</p>
 <p className='right-text-bottom'>you</p>
         </div>
-      </div>
+      </div> */}
       <div className='section-4'>
         <div className='section4-heading'>
           Say goodbye to
         </div>
         <div className='section-points'>
-          <RoundedPointer text={"Start over every Monday"}/>
+          <RoundedPointer text={"Starting over every Monday"}/>
           <RoundedPointer text={"Feeling guilty after meals"}/>
           <RoundedPointer text={"Forcing workouts you hate"}/>
           <RoundedPointer text={"Relying on motivation"}/>
@@ -135,25 +136,26 @@ approach that works for</p>
       ))}
     </div>
   </div>
-  <div className='section-7'>
-    <div className='section7-heading'>
+  <div className='section-7 '>
+    {/* <div className='section7-heading'>
         Why Most Professionals Struggle With Fat Loss (Even When They “Try Hard”)
 
-    </div>
+    </div> */}
     <div className='containers'>
        {mistakes.map((mistake, i) => (
-        <div className="container" key={i}>
+        <div style={{display:"flex", flex:"1", paddingTop: "8px"}} key={i}>
           <MistakeContainer text={mistake.text} num={i+1}/>
         </div>
       ))}
     </div>
 
   </div>
+  <div className='section-8-9'>
   <div className='section-8'>
     <div className='subsection'>
       
       <div className='heading'>
-        IT’s Time To Replace Chaos with Structure
+        It’s Time To Replace Chaos with Structure
       </div>
       <div className='boxes'>
         <div className='box-in'>predictable progress</div>
@@ -176,7 +178,7 @@ approach that works for</p>
       
     </div>
   </div>
-
+</div>
   <div className='section-10'>
     <div className='heading'>You can stay on the same exhausting loop:
 </div>

@@ -18,7 +18,7 @@ const Navbar = () => {
         <nav className="navbar">
           <a href="/">HOME</a>
           <a href="/">ABOUT US</a>
-          <a href="/apply">APPLY NOW</a>
+          <a  href="/apply">APPLY NOW</a>
         </nav>
       </header>
     </div>

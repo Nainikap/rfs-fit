@@ -32,7 +32,7 @@
 .lp-left{
     position: absolute;
   inset: 0;
-  background-color: #0a0a0a;
+  background-color: #f3ece2;
   clip-path: polygon(0 0, 58% 0, 82% 100%, 0 100%);
   z-index: 2;
   display: flex;
@@ -59,7 +59,7 @@
   transform: translateY(-50%);
   z-index: 4;
   /* max-width: 520px; */
-  color: white;
+  color: rgb(27, 26, 26);
 }
 .lp-text .FitnessVideo{
   bottom: 10%;
@@ -79,7 +79,7 @@
 
 .rfs-subtext {
   font-size: clamp(0.85rem, 1.2vw, 1rem);
-  color: #e0e0e0;
+  color: #1d1c1c;
   font-style: italic;
   letter-spacing: 0.03em;
   margin: 0;

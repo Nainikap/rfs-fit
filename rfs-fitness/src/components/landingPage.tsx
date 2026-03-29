@@ -14,7 +14,7 @@ const LandingPage = () =>{
                     <p className='rfs-heading'>REDEFINED FITNESS <span style={{color:"#ff6b00"}}>SOLUTION</span></p>
                     <p className='rfs-subtext'>for busy professionals who have lost trust in diets and fitness plans</p>
                     <p>Watch this short video before you try another program.<br/>
-                    It explains why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like.</p>
+                    Why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like.</p>
                     <div className='lp-video'>
                     <FitnessVideo
                     id = {"lpVideo"}

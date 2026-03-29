@@ -1325,17 +1325,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2
 const MistakeContainer = ({ text, num })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: `container ${num % 2 === 0 ? '-even' : ''}`,
+            className: `container`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "heading",
-                    children: [
-                        "Mistake ",
-                        " ",
-                        " ",
-                        num.toString()
-                    ]
-                }, void 0, true, {
+                    className: "heading"
+                }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/components/mistakeContainer.tsx",
                     lineNumber: 14,
                     columnNumber: 17
@@ -1709,7 +1703,7 @@ const LandingPage = ()=>{
                                         lineNumber: 16,
                                         columnNumber: 78
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    "It explains why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like."
+                                    "Why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/components/landingPage.tsx",
@@ -1845,13 +1839,13 @@ const CARDS = [
 ];
 const mistakes = [
     {
-        text: "Overcomplicating Everything Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."
+        text: "Stop overcomplicating everything tracking, apps, numbers, rules becomes overwhelming fast. We simplify."
     },
     {
-        text: "Relying on Motivation Motivation fades. Systems don’t."
+        text: "Stop relying on motivation. Motivation fades systems don’t."
     },
     {
-        text: "Ignoring Stress & Lifestyle Stress-driven hunger is real."
+        text: "Stop ignoring stress & lifestyle. Stress-driven hunger is real."
     }
 ];
 const videos = [
@@ -2025,94 +2019,6 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "section-3",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "section-3-left-text",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "left-text-heading",
-                                children: "nothing works."
-                            }, void 0, false, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 74,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "left-text-body",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: " You’ve cut foods"
-                                    }, void 0, false, {
-                                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                        lineNumber: 77,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "You’ve been consistent"
-                                    }, void 0, false, {
-                                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "YOU DON’T lack  willpower"
-                                    }, void 0, false, {
-                                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                        lineNumber: 79,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: " You’ve forced routines into busy days"
-                                    }, void 0, false, {
-                                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                        lineNumber: 80,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 76,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 73,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "section-3-right-text",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "right-text-top",
-                                children: " It’s time for an approach that works for"
-                            }, void 0, false, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 86,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "right-text-bottom",
-                                children: "you"
-                            }, void 0, false, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 88,
-                                columnNumber: 1
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 85,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 72,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "section-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2120,50 +2026,50 @@ function Home() {
                         children: "Say goodbye to"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 92,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "section-points",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Start over every Monday"
-                            }, void 0, false, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 96,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Feeling guilty after meals"
+                                text: "Starting over every Monday"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                 lineNumber: 97,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Forcing workouts you hate"
+                                text: "Feeling guilty after meals"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                 lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Relying on motivation"
+                                text: "Forcing workouts you hate"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
                                 lineNumber: 99,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$roundedPointer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                text: "Relying on motivation"
+                            }, void 0, false, {
+                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 95,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 91,
+                lineNumber: 92,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2181,12 +2087,12 @@ function Home() {
                                 height: 640
                             }, video.id, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 107,
+                                lineNumber: 108,
                                 columnNumber: 17
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 103,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2204,23 +2110,23 @@ function Home() {
                                 d: "M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 121,
+                                lineNumber: 122,
                                 columnNumber: 3
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 120,
+                            lineNumber: 121,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 119,
+                        lineNumber: 120,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 102,
+                lineNumber: 103,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2231,7 +2137,7 @@ function Home() {
                         children: "Experience what it's like"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 127,
+                        lineNumber: 128,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2242,159 +2148,162 @@ function Home() {
                                     text: card.text
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 134,
                                     columnNumber: 11
                                 }, this)
                             }, i, false, {
                                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 132,
+                                lineNumber: 133,
                                 columnNumber: 9
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 126,
+                lineNumber: 127,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "section-7",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "section7-heading",
-                        children: "Why Most Professionals Struggle With Fat Loss (Even When They “Try Hard”)"
-                    }, void 0, false, {
-                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 139,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "containers",
-                        children: mistakes.map((mistake, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "container",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$mistakeContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    text: mistake.text,
-                                    num: i + 1
-                                }, void 0, false, {
-                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 146,
-                                    columnNumber: 11
-                                }, this)
-                            }, i, false, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 145,
-                                columnNumber: 9
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 143,
-                        columnNumber: 5
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 138,
-                columnNumber: 3
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "section-8",
+                className: "section-7 ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "subsection",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "heading",
-                            children: "IT’s Time To Replace Chaos with Structure"
-                        }, void 0, false, {
+                    className: "containers",
+                    children: mistakes.map((mistake, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                display: "flex",
+                                flex: "1",
+                                paddingTop: "8px"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$mistakeContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                text: mistake.text,
+                                num: i + 1
+                            }, void 0, false, {
+                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                lineNumber: 147,
+                                columnNumber: 11
+                            }, this)
+                        }, i, false, {
                             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 155,
-                            columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "boxes",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "box-in",
-                                    children: "predictable progress"
-                                }, void 0, false, {
-                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 159,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "box-in",
-                                    children: "Less food stress"
-                                }, void 0, false, {
-                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 160,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "box-in",
-                                    children: "A plan that fits life"
-                                }, void 0, false, {
-                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 161,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 158,
-                            columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$applyNow$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                            fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 164,
-                            columnNumber: 7
-                        }, this)
-                    ]
-                }, void 0, true, {
+                            lineNumber: 146,
+                            columnNumber: 9
+                        }, this))
+                }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                    lineNumber: 153,
+                    lineNumber: 144,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 152,
+                lineNumber: 139,
                 columnNumber: 3
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "section-9",
+                className: "section-8-9",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "heading",
-                        children: "What Happens When You Apply?"
-                    }, void 0, false, {
-                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 168,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "graph",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$errorBoundary$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$donut$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, "donut-chart", false, {
-                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                lineNumber: 174,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
+                        className: "section-8",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "subsection",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "heading",
+                                    children: "It’s Time To Replace Chaos with Structure"
+                                }, void 0, false, {
+                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                    lineNumber: 157,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "boxes",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "box-in",
+                                            children: "predictable progress"
+                                        }, void 0, false, {
+                                            fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                            lineNumber: 161,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "box-in",
+                                            children: "Less food stress"
+                                        }, void 0, false, {
+                                            fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                            lineNumber: 162,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "box-in",
+                                            children: "A plan that fits life"
+                                        }, void 0, false, {
+                                            fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                            lineNumber: 163,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                    lineNumber: 160,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$applyNow$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                    lineNumber: 166,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 173,
-                            columnNumber: 7
+                            lineNumber: 155,
+                            columnNumber: 5
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 172,
-                        columnNumber: 5
+                        lineNumber: 154,
+                        columnNumber: 3
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "section-9",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "heading",
+                                children: "What Happens When You Apply?"
+                            }, void 0, false, {
+                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                lineNumber: 170,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "graph",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$errorBoundary$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$donut$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, "donut-chart", false, {
+                                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                        lineNumber: 176,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                    lineNumber: 175,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                                lineNumber: 174,
+                                columnNumber: 5
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
+                        lineNumber: 169,
+                        columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 167,
+                lineNumber: 153,
                 columnNumber: 3
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2405,7 +2314,7 @@ function Home() {
                         children: "You can stay on the same exhausting loop:"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 181,
+                        lineNumber: 183,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2416,45 +2325,45 @@ function Home() {
                                     children: "force yourself to the gym when you're tired"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 187,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Eat chicken & broccoli for the rest of your life"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 188,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Count calories like it’s your second job"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 187,
+                                    lineNumber: 189,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Feel guilty every time you slip"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                                    lineNumber: 188,
+                                    lineNumber: 190,
                                     columnNumber: 9
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 184,
+                            lineNumber: 186,
                             columnNumber: 7
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 183,
+                        lineNumber: 185,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 180,
+                lineNumber: 182,
                 columnNumber: 3
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2465,25 +2374,25 @@ function Home() {
                         children: "or take control"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 193,
+                        lineNumber: 195,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "section-11-apply",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$rfs$2f$rfs$2d$fitness$2f$src$2f$components$2f$applyNow$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                            lineNumber: 195,
+                            lineNumber: 197,
                             columnNumber: 5
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                        lineNumber: 194,
+                        lineNumber: 196,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/rfs/rfs-fitness/src/home.tsx",
-                lineNumber: 192,
+                lineNumber: 194,
                 columnNumber: 3
             }, this)
         ]

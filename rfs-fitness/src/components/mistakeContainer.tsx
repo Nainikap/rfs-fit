@@ -10,9 +10,9 @@ type MistakeContainerProps = {
 const MistakeContainer = ({ text,num }: MistakeContainerProps) => {
     return(
         <div>
-            <div className={`container ${num%2===0 ? '-even' : ''}`}>
+            <div className={`container`}>
                 <div className="heading">
-                  Mistake {" "} {num.toString()}
+                  {/* Mistake {" "} {num.toString()} */}
                 </div>
                 <div className='description'>
                     {text}

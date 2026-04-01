@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/naini/OneDrive/Desktop/rfs/rfs-fitness/src/app/layout.tsx"],"sourcesContent":["import '../index.css';\r\nimport '../App.css'\r\n\r\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <html lang=\"en\">\r\n        <head>\r\n    <meta charSet=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/logo.jpeg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Redefined Fitness Solution</title>\r\n  </head>\r\n      <body>{children}</body>\r\n    </html>\r\n  );\r\n}"],"names":[],"mappings":";;;;;;;;AAGe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8RAAC;QAAK,MAAK;;0BACP,8RAAC;;kCACL,8RAAC;wBAAK,SAAQ;;;;;;kCACd,8RAAC;wBAAK,KAAI;wBAAO,MAAK;wBAAgB,MAAK;;;;;;kCAC3C,8RAAC;wBAAK,MAAK;wBAAW,SAAQ;;;;;;kCAC9B,8RAAC;kCAAM;;;;;;;;;;;;0BAEL,8RAAC;0BAAM;;;;;;;;;;;;AAGb"}},
-    {"offset": {"line": 73, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/naini/OneDrive/Desktop/rfs/rfs-fitness/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,6JACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
-}

@@ -1,22 +1,23 @@
 "use client"
 
 import '../styles/MistakeContainer.css'
-
+import LearnMore from './learnMore';
 type MistakeContainerProps = {
+  heading:string;
   text: string;
   num: number;
 };
 
-const MistakeContainer = ({ text,num }: MistakeContainerProps) => {
+const MistakeContainer = ({ heading,text,num }: MistakeContainerProps) => {
     return(
         
             <div className={`container`}>
                 <div className="heading">
-                  {/* Mistake {" "} {num.toString()} */}
+                  {heading}<br/>
                 </div>
                 <div className='description'>
-                    {text}
-
+                    <p style={{paddingBottom:"2rem"}}>{text}</p>
+                    <LearnMore/>
                 </div>
             </div>
         

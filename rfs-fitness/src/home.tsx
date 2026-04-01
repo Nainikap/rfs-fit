@@ -21,9 +21,9 @@ const CARDS = [
   { text: "build better habits" },
 ];
 const mistakes = [
-  {text: "Stop overcomplicating everything tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
-  {text: "Stop relying on motivation. Motivation fades systems don’t."},
-  {text: "Stop ignoring stress & lifestyle. Stress-driven hunger is real."}
+  {heading:"Stop overcomplicating everything.", text: "Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
+  {heading: "Stop relying on motivation. ", text: "Motivation fades systems don’t."},
+  {heading: "Stress-driven hunger is real.", text: "Stop ignoring stress & lifestyle."}
 ]
 const videos = [
   {id: "1", src: "/vid1.MP4", type: "video/mp4"},
@@ -82,7 +82,7 @@ else
           </div>
            <div className='section-2-compare'>
             <img src='/transformation 3A.jpeg' alt='transformation'/>
-            <img src='/transformation 3B.jpeg' alt='transformation'/>
+            <img src='/transformation 3B.png' alt='transformation'/>
             <img src='/transformation 4A.jpeg' alt='transformation'/>
             <img src='/transformation 4B.jpeg' alt='transformation'/>
 
@@ -165,7 +165,7 @@ approach that works for</p>
     <div className='containers'>
        {mistakes.map((mistake, i) => (
         <div style={{display:"flex", flex:"1", padding: "0.5rem"}} key={i}>
-          <MistakeContainer text={mistake.text} num={i+1} />
+          <MistakeContainer heading={mistake.heading} text={mistake.text} num={i+1} />
         </div>
       ))}
     </div>
@@ -205,7 +205,7 @@ approach that works for</p>
 </div>
     <div className='body'>
       <ol>
-        <li>force yourself to the gym when you're tired</li>
+        <li>Force yourself to the gym when you're tired</li>
         <li>Eat chicken & broccoli for the rest of your life</li>
         <li>Count calories like it’s your second job</li>
         <li>Feel guilty every time you slip</li>

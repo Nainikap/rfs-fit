@@ -16,7 +16,7 @@ const LandingPage = () =>{
                     <p className='rfs-subtext'>For busy professionals who have lost trust in diets and fitness plans</p>
                     <p>Why most plans fail for people with real jobs, real stress and what a sustainable alternative actually looks like.<br/>
                         Watch this short video before you try another program.<br/>
-                    .</p>
+                    </p>
                     <div className='lp-video'>
                     <FitnessVideo
                     id = {"lpVideo"}

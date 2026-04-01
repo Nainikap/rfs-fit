@@ -1,20 +1,19 @@
 "use client"
 
-import {BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
 import '../styles/LearnMore.css'
-import ApplicationForm from './applicationForm';
-import Home from '@/app/page';
 
+const LearnMore = () => {
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
-const LearnMore = () =>{
-    return(
-        <nav>
-
-          
-        <a href="/" className='learn-more'>learn more</a>
-            
-        </nav>
-    )
-
+  return (
+    <nav>
+      <a href="#" onClick={handleClick} className='learn-more'>
+        learn more
+      </a>
+    </nav>
+  );
 };
 export default LearnMore;

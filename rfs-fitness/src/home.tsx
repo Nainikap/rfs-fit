@@ -59,7 +59,7 @@ else
   }
 
   return (
-    <>
+    <div id="top">
     <div className='navBar' >
         <Navbar/>
         </div>
@@ -219,7 +219,7 @@ approach that works for</p>
 
     </div>
   </div>
-    </>
+    </div>
   )
 }
 

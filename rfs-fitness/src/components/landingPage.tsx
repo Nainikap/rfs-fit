@@ -8,7 +8,7 @@ const LandingPage = () =>{
         
         <div className='lp'>
             <div className='lp-bg'>
-    <div style={{ height: "90px" }} />
+    <div style={{ margin: "90px" }} />
                  
                 <div className='lp-text'>
                     

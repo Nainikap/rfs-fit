@@ -17,6 +17,7 @@
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
 
     transform: translateZ(20px);
+    overflow: hidden;
 }
 
 .container-even {
@@ -35,6 +36,8 @@
     text-transform: capitalize;
     color: rgba(0, 0, 0, 0.837);
     padding-bottom: 25px;
+    overflow: hidden;
+
 }
 
 .description {
@@ -42,4 +45,48 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     line-height: 1.2;
+    overflow: hidden;
+
+}
+
+/* ── Phone (≤480px) ── */
+@media (max-width: 480px) {
+    .container {
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: 0 4px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .container-even {
+        border-radius: 0.75rem;
+        padding: 0.75rem;
+    }
+
+    .heading {
+        font-size: 1.25rem;
+        padding-bottom: 12px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        line-height: 1.4;          /* slightly looser for readability */
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+        aspect-ratio: auto;        /* let height be driven by content */
+        transform: none;           /* drop 3D transform — can clip on mobile */
+        box-shadow: 0 6px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    .heading {
+        font-size: 1.5rem;
+        padding-bottom: 16px;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
 }

@@ -21,41 +21,44 @@ const CARDS = [
   { text: "build better habits" },
 ];
 const mistakes = [
-  {heading:"Stop overcomplicating everything.", text: "Tracking, apps, numbers, rules becomes overwhelming fast. We simplify."},
+  {heading:"Stop overcomplicating.", text: "Tracking apps, numbers, rules becomes overwhelming fast. We simplify."},
   {heading: "Stop relying on motivation. ", text: "Motivation fades systems don’t."},
   {heading: "Stress-driven hunger is real.", text: "Stop ignoring stress & lifestyle."}
 ]
 const videos = [
-  {id: "1", src: "/vid1.MP4", type: "video/mp4"},
-  {id: "2", src: "/vid2.MP4", type: "video/mp4"},
-  {id: "3", src: "/vid3.MP4", type: "video/mp4"},
+  {id: "1", src: "/vid1.MP4", type: "video/mp4", thumbnail: "testimonial_thumb1.jpeg"},
+  {id: "2", src: "/vid2.MP4", type: "video/mp4", thumbnail: "testimonial_thumb4.jpeg"},
+  {id: "3", src: "/vid3.MP4", type: "video/mp4", thumbnail: "testimonial_thumb2.jpeg"},
+  {id: "4", src: "/vid4.mp4", type: "video/mp4", thumbnail: "testimonial_thumb3.jpeg"},
+
 ]
 
 function Home() {
 
-const [scrollDirection, setScrollDirection] = useState("right");
 
   const scrollRef = useRef<HTMLDivElement>(null);
- useEffect(() => {
-  const container = scrollRef.current;
-  if (!container) return;
+//  useEffect(() => {
+//   const container = scrollRef.current;
+//   if (!container) return;
 
-  const handleScroll = () => {
-    const atEnd = container.scrollLeft + container.clientWidth >= container.scrollWidth - 10;
-    setScrollDirection(atEnd ? "left" : "right");
-  };
+  
 
-  container.addEventListener('scroll', handleScroll);
-  return () => container.removeEventListener('scroll', handleScroll);
-}, []);
+//   container.addEventListener('scroll', handleScroll);
+//   return () => container.removeEventListener('scroll', handleScroll);
+// }, []);
   const scrollRight = () =>{
 const video = scrollRef.current?.querySelector('video');
   const scrollAmount = video?.offsetWidth ?? 640;
-  if (scrollDirection==="right")
+  
   scrollRef.current?.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-else
-  scrollRef.current?.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
 
+ 
+
+  }
+  const scrollLeft=()=>{
+    const video = scrollRef.current?.querySelector('video');
+  const scrollAmount = video?.offsetWidth ?? 640;
+   scrollRef.current?.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
   }
 
   return (
@@ -122,6 +125,11 @@ approach that works for</p>
         </div>
       </div>
       <div className='section-5'>
+         <div className='scroll-arrowleft' onClick={scrollLeft} style={{ transform:"rotate(180deg)" }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg>
+          </div>
         <div className='section-5-containers' ref={scrollRef}>
          
             {
@@ -132,13 +140,14 @@ approach that works for</p>
                 src = {video.src}
                 type = {video.type}
                 controls = {true}
-                width={640}
-                height={640}
+                // width={640}
+                // height={640}
+                thumbnail={video.thumbnail}
                 />
               ))
             }
           </div>
-          <div className='scroll-arrow' onClick={scrollRight} style={{ transform: scrollDirection === "right" ? "rotate(0deg)" : "rotate(180deg)" }}>
+          <div className='scroll-arrowright' onClick={scrollRight}>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
 </svg>

@@ -122,7 +122,7 @@
           display: flex;
           width: 100%;
           max-width: 960px;
-          background: #17100e;
+          background: #dedad9;
           border: 1px solid #4e3426;
           border-radius: 2px;
           overflow: hidden;
@@ -136,7 +136,7 @@
           flex: 1.1;
           padding: 40px 36px;
           border-right: 1px solid #1e2028;
-          background: #0e1014;
+          background: #dedfe1;
         }
 
         .cal-nav {
@@ -150,7 +150,7 @@
           font-family: 'Cormorant Garamond', serif;
           font-size: 22px;
           font-weight: 400;
-          color: #e8e2d9;
+          color: #140f08;
           letter-spacing: 0.5px;
         }
 
@@ -204,7 +204,7 @@
           justify-content: center;
           font-size: 13px;
           font-weight: 300;
-          color: #8a8478;
+          color: #0f0c08;
           cursor: pointer;
           border-radius: 2px;
           position: relative;
@@ -213,13 +213,13 @@
         }
 
         .cal-cell:hover:not(.past):not(.empty) {
-          background: rgba(201,163,94,0.08);
+          background: rgba(201, 164, 94, 0.595);
           border-color: rgba(201,163,94,0.2);
-          color: #e8e2d9;
+          color: #1e1b17;
         }
 
         .cal-cell.past {
-          color: #58554f;
+          color: #221e16;
           cursor: default;
         }
 
@@ -254,7 +254,7 @@
           font-weight: 500;
           letter-spacing: 3px;
           text-transform: uppercase;
-          color: #d1cec9;
+          color: #161410;
           margin-bottom: 8px;
         }
 
@@ -262,12 +262,12 @@
           font-family: 'Cormorant Garamond', serif;
           font-size: 18px;
           font-weight: 400;
-          color: #e8e2d9;
+          color: #14100c;
           min-height: 26px;
         }
 
         .time-date-display.empty {
-          color: #d2cfca;
+          color: #1e1a13;
           font-style: italic;
           font-size: 14px;
         }
@@ -296,7 +296,7 @@
           border-radius: 2px;
           font-size: 12px;
           font-weight: 400;
-          color: #e2d7ceaf;
+          color: #15110eaf;
           cursor: pointer;
           transition: all 0.15s;
           text-align: center;
@@ -354,7 +354,7 @@
         .modal-overlay {
           position: fixed;
           inset: 0;
-          background: rgba(0,0,0,0.85);
+          background: rgba(36, 36, 34, 0.85);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -375,7 +375,7 @@
         }
 
         .modal {
-          background: #111318;
+          background: #f0f1edd1;
           border: 1px solid #1e2028;
           border-radius: 2px;
           width: 100%;
@@ -448,8 +448,8 @@
 
         .field-input {
           width: 100%;
-          background: #0b0c0e;
-          border: 1px solid #1e2028;
+          background: #ffffff;
+          border: 0.5px solid #3e3e3f8e;
           border-radius: 2px;
           padding: 12px 14px;
           font-family: 'DM Sans', sans-serif;
@@ -509,7 +509,7 @@
           align-items: center;
           justify-content: center;
           padding: 40px 20px;
-          background: #0b0c0e;
+          background: #bdc0c6;
           position: relative;
           overflow: hidden;
         }
@@ -527,8 +527,8 @@
         }
 
         .confirm-application-card {
-          background: #111318;
-          border: 1px solid #1e2028;
+          background: #e0e0e0bc;
+          border: 0.5px solid #1e20288f;
           border-radius: 2px;
           padding: 64px 56px;
           max-width: 480px;
@@ -542,7 +542,7 @@
         .confirm-icon {
           width: 56px;
           height: 56px;
-          border: 1px solid rgba(201,163,94,0.4);
+          border: 1px solid rgba(201, 164, 94, 0.895);
           border-radius: 50%;
           display: flex;
           align-items: center;
@@ -554,7 +554,7 @@
 
         .confirm-eyebrow {
           font-size: 9px;
-          font-weight: 500;
+          font-weight: 700;
           letter-spacing: 4px;
           text-transform: uppercase;
           color: #e69100;
@@ -565,7 +565,7 @@
           font-family: 'Cormorant Garamond', serif;
           font-size: 36px;
           font-weight: 300;
-          color: #f0ece4;
+          color: #332d20;
           line-height: 1.2;
           margin-bottom: 16px;
         }
@@ -584,8 +584,8 @@
         }
 
         .confirm-details {
-          background: #0b0c0e;
-          border: 1px solid #1e2028;
+          background: #e8e8e8;
+          border: 0.5px solid #999ca6c1;
           border-radius: 2px;
           padding: 20px 24px;
           margin-bottom: 36px;
@@ -597,7 +597,7 @@
           justify-content: space-between;
           align-items: center;
           padding: 6px 0;
-          border-bottom: 1px solid #1e2028;
+          border-bottom: 1px solid #1e202849;
         }
 
         .confirm-detail-row:last-child { border-bottom: none; }
@@ -611,7 +611,7 @@
 
         .confirm-detail-val {
           font-size: 12px;
-          color: #de9332;
+          color: #d67b03;
         }
 
         .confirm-back-btn {
@@ -630,8 +630,8 @@
         }
 
         .confirm-back-btn:hover {
-          border-color: #c9a35e;
-          color: #c9a35e;
+          border-color: #0b0a07;
+          color: #040302;
         }
 
         @media (max-width: 680px) {

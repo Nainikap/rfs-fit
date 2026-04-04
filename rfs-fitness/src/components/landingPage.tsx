@@ -23,8 +23,9 @@ const LandingPage = () =>{
                     src ={"/RohitLP.mp4"}
                     type = {"video/mp4"}
                     controls={true}
-                    width={720}
-                    height={390}
+                    // width={720}
+                    // height={390}
+                    thumbnail={"lp_thumb.png"}
                     /></div>
             </div>
                 <div className='lp-left'>

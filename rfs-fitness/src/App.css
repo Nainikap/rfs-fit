@@ -416,6 +416,7 @@ text-transform: uppercase;
 }
 
 .section-9 {
+  padding: 1rem;
   flex: 1.5;
   border-radius: 2rem;
   background: linear-gradient(135deg, rgba(255, 140, 50, 0.35) 0%, rgba(255, 100, 20, 0.15) 100%);
@@ -434,10 +435,11 @@ text-transform: uppercase;
   .heading {
     font-family: 'Anton', sans-serif;
     font-size: 2.5rem;
+    width: 55%;
   }
 
   .graph {
-    padding: .5rem;
+    /* padding: .5rem; */
     height: 50vh;
     text-align: center;
   }

@@ -32,9 +32,9 @@ useEffect(() => {
   if (!mounted) return null;
     const data = {
     labels: [
-      "Understand the real roadblock in your routine",
+      "Understand your actual roadblocks ",
       "Get clarity on your portion patterns",
-      "See how to lose 3–6 kg in the next few weeks",
+      "Lose 3–6 kg in the next few weeks",
     ],
     datasets: [
       {
@@ -61,7 +61,15 @@ useEffect(() => {
     plugins: {
       legend: {
         position: isMobile ? "bottom" : "right",
+        labels: {
+    font: {
+      size: isMobile ? 12 : 14,   // bigger text
+      weight: "bold",             // bold text
+    },
+    // padding: 15,                  // spacing between items
+  },
       },
+      
       tooltip: {
         callbacks: {
           label: (context: TooltipItem<"doughnut">): string =>  {

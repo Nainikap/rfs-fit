@@ -441,7 +441,7 @@
           font-weight: 500;
           letter-spacing: 2px;
           text-transform: uppercase;
-          color: #4a4845;
+          color: #221f1c;
           display: block;
           margin-bottom: 8px;
         }
@@ -454,8 +454,8 @@
           padding: 12px 14px;
           font-family: 'DM Sans', sans-serif;
           font-size: 13px;
-          font-weight: 300;
-          color: #e8e2d9;
+          font-weight: 400;
+          color: #000000;
           outline: none;
           transition: border-color 0.15s;
         }

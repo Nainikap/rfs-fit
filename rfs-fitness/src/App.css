@@ -285,7 +285,7 @@ text-transform: uppercase;
   align-items: center;
   padding: 2rem;
   padding-top: 3rem;
-  background-color: rgb(215, 211, 211);
+  background-color: rgb(232, 230, 230);
   justify-content: center;
 }
 
@@ -433,11 +433,11 @@ text-transform: uppercase;
   padding: 1rem;
   .heading {
     font-family: 'Anton', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .graph {
-    padding: 1rem;
+    padding: .5rem;
     height: 50vh;
     text-align: center;
   }

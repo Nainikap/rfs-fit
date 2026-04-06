@@ -83,7 +83,7 @@ useEffect(() => {
   };
 
   return (
-    <div className="chart-wrapper" style={{color:"black", height: "100%", width:"50vw", textAlign:"center"}}>
+    <div className="chart-wrapper" style={{color:"black", height: "100%", width:"100%", textAlign:"center"}}>
       <Doughnut 
       data={data} 
       options={defaultOptions} 

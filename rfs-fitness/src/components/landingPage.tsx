@@ -34,6 +34,9 @@ const LandingPage = () =>{
             <div className='lp-right'>
                 <img src='/lp.png' alt='lp-img'/>
             </div>
+            <div className='lp-logo'>
+                <img src='/logo.png' alt='lp-logo-img'/>
+            </div>
             </div>
             
             

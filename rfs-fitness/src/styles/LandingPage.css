@@ -52,6 +52,23 @@
   object-position: right top;
   filter: sepia(20%) brightness(0.85);
 }
+.lp-logo{
+  position:absolute;
+  top: 5;
+  right:5;
+  width: 45px;
+  height: 45px;
+  /* z-index: 7; */
+  object-fit: contain;
+  overflow: hidden;
+
+}
+.lp-logo img{
+  object-fit: contain;
+width: 100%;
+  height: 45px;
+}
+
 .lp-text {
   position: absolute;
   top: 52%;
@@ -113,6 +130,9 @@
 
   /* Hide the right image completely */
   .lp-right {
+    display: none;
+  }
+  .lp-logo{
     display: none;
   }
 

@@ -26,10 +26,11 @@ const mistakes = [
   {heading: "Stress-driven hunger is real.", text: "Stop ignoring stress & lifestyle."}
 ]
 const videos = [
-  {id: "1", src: "/vid1.MP4", type: "video/mp4", thumbnail: "testimonial_thumb1.jpeg"},
-  {id: "2", src: "/vid2.MP4", type: "video/mp4", thumbnail: "testimonial_thumb4.jpeg"},
   {id: "3", src: "/vid3.MP4", type: "video/mp4", thumbnail: "testimonial_thumb2.jpeg"},
   {id: "4", src: "/vid4.mp4", type: "video/mp4", thumbnail: "testimonial_thumb3.jpeg"},
+
+  {id: "1", src: "/vid1.MP4", type: "video/mp4", thumbnail: "testimonial_thumb1.jpeg"},
+  {id: "2", src: "/vid2.MP4", type: "video/mp4", thumbnail: "testimonial_thumb4.jpeg"},
 
 ]
 

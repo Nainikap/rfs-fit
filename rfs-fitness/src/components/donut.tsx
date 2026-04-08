@@ -56,7 +56,7 @@ useEffect(() => {
   };
 
   const defaultOptions: ChartOptions<"doughnut">= {
-    responsive: true,
+    // responsive: true,
     maintainAspectRatio: false,
     plugins: {
       legend: {
@@ -71,13 +71,14 @@ useEffect(() => {
       },
       
       tooltip: {
-        callbacks: {
-          label: (context: TooltipItem<"doughnut">): string =>  {
-            let label = context.label || "";
-            let value = (context.raw as number) ?? 0;
-            return `${label}`;
-          },
-        },
+        enabled: false,
+        // callbacks: {
+        //   label: (context: TooltipItem<"doughnut">): string =>  {
+        //     let label = context.label || "";
+        //     let value = (context.raw as number) ?? 0;
+        //     return `${label}`;
+        //   },
+        // },
       },
     },
   };

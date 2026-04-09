@@ -13,7 +13,7 @@ import FitnessVideo from './components/fitnessVideo'
 import "./chartConfig";
 import LandingPage from './components/landingPage'
 const CARDS = [
-  { text: "have a plan that fits you" },
+  { text: "have a plan that fits your lifestyle" },
   { text: "track your progress easily" },
   { text: "set goals that matter" },
   { text: "stay consistent daily" },
@@ -22,7 +22,7 @@ const CARDS = [
 ];
 const mistakes = [
   {heading:"Stop overcomplicating.", text: "Tracking apps, numbers, rules becomes overwhelming fast. We simplify."},
-  {heading: "Stop relying on motivation. ", text: "Motivation fades systems don’t."},
+  {heading: "Stop relying on motivation. ", text: "Motivation fades, systems don’t."},
   {heading: "Stress-driven hunger is real.", text: "Stop ignoring stress & lifestyle."}
 ]
 const videos = [
@@ -191,7 +191,7 @@ approach that works for</p>
       <div className='boxes'>
         <div className='box-in'>predictable progress</div>
         <div className='box-in'>Less food stress</div>
-        <div className='box-in'>A plan that fits life</div>
+        <div className='box-in'>A plan that fits your life</div>
         
       </div>
       <ApplyNow/>

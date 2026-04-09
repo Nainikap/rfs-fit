@@ -22,6 +22,7 @@ const Navbar = () => {
           <a  href="/apply">APPLY NOW</a>
         </nav>
       </header>
+     
       
     </div>
     </>

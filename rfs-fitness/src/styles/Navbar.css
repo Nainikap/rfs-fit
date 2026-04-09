@@ -11,6 +11,8 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+
 }
 
 .header {
@@ -28,6 +30,8 @@ body{
     backdrop-filter 0.4s ease,
     box-shadow 0.4s ease;
 }
+
+
 
 .header.scrolled {
   background-image: linear-gradient(

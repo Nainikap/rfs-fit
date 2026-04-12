@@ -2,7 +2,7 @@
 import React from "react";
 import "../styles/Navbar.css";
 import { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [scroller, setScroller] = useState(false);
   useEffect(() => {
@@ -17,9 +17,9 @@ const Navbar = () => {
     <div className="nav">
       <header className={`header ${scroller ? "scrolled" : ""}`}>
         <nav className="navbar">
-          <a href="/">HOME</a>
-          <a href="/">ABOUT US</a>
-          <a  href="/apply">APPLY NOW</a>
+          <Link to="/">HOME</Link>
+          <Link to="/about">ABOUT US</Link>
+          <Link  to="/apply">APPLY NOW</Link>
         </nav>
       </header>
      

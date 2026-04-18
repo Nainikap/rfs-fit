@@ -228,7 +228,13 @@ approach that works for</p>
     <ApplyNow/>
 
     </div>
+   
   </div>
+   <div className='clickables'>
+    <a href="https://wa.me/15551234567" target="_blank">
+    <img src="whatsapp.png" alt="Chat with us" width="50" height="50"/>
+</a>
+</div>
     </div>
   )
 }

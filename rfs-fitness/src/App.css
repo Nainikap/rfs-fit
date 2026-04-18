@@ -501,6 +501,7 @@ text-transform: uppercase;
       margin: 0 auto;           
       text-align: left;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -525,8 +526,12 @@ text-transform: uppercase;
     text-align: center;
     justify-content: center;
   }
+  
 }
-
+.clickables{
+    padding: 1rem;
+    text-align: right;
+  }
 
 
 /* Tablet */

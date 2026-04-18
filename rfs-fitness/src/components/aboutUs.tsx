@@ -2,6 +2,7 @@
 import React from "react";
 import "../styles/AboutUs.css";
 import { Link } from "react-router-dom";
+import Navbar from "./navbar";
 
 const stats = [
   { num: "24/7", label: "Support", sub: "Always on" },
@@ -99,14 +100,15 @@ const programmes = [
 export default function AboutUs(){
   return (
     <section className="rfs-about">
-
+      <Navbar/>
       {/* ── Brand Block ── */}
       <div className="rfs-brand">
-        <p className="rfs-eyebrow">About Us</p>
+        {/* <p className="rfs-eyebrow">About Us</p>
         <h2 className="rfs-brand-heading">
           Redefined<br />
           <span className="rfs-orange">Fitness Solutions</span>
-        </h2>
+        </h2> */}
+        <div className="brand-about">
         <p className="rfs-brand-body">
           In a crowded fitness landscape, sustainable results demand more than effort and
           commitment. They require structure, clarity and sustainability.
@@ -118,15 +120,15 @@ export default function AboutUs(){
         <p className="rfs-brand-body">
           We're not chasing trends. We're building standards that support your professional edge.
         </p>
-        {/* <p className="rfs-brand-handle">@rfsfitness</p> */}
+        {/* <p className="rfs-brand-handle">@rfsfitness</p> */}</div>
       </div>
 
       {/* ── Divider ── */}
-      <div className="rfs-divider">
+      {/* <div className="rfs-divider">
         <div className="rfs-divider-line" />
         <div className="rfs-divider-dot" />
         <div className="rfs-divider-line" />
-      </div>
+      </div> */}
 
       {/* ── Coaches ── */}
       <div className="rfs-coaches-label">

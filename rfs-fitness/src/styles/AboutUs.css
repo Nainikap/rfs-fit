@@ -56,7 +56,10 @@
   overflow: hidden;
   color: black;
 }
+.brand-about{
+  padding-top: 4rem;
 
+}
 .rfs-brand-body {
   font-size: 15px;
   font-weight: 300;
@@ -103,7 +106,7 @@
 /* ── Coaches ── */
 .rfs-coaches-label {
   text-align: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   overflow: hidden;
   
 }
@@ -247,23 +250,36 @@
   text-align: center;
   font-style: italic;
 }
-.rfs-coach-banner{
-    width: 100%;
-    height:500px;
-    overflow: hidden;
-    padding-bottom: 50px;
-    /* object-fit: cover; */
-    /* aspect-ratio: 16/9; */
-}
-.rfs-coach-banner img{
-    object-fit: cover;
-    object-position: center;
-    /* display: block; */
-    width: 100%;
-    height: 100%;
-
+.rfs-coach-banner {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
 
+.rfs-coach-banner img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .rfs-coach-banner {
+    height: 350px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .rfs-coach-banner {
+    height: 220px;
+    padding-bottom: 20px;
+  }
+}
 /* ── Stats Bar ── */
 .rfs-stats {
   display: grid;

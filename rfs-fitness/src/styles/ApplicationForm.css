@@ -74,6 +74,34 @@
           color: #ff3c00;
           margin-bottom: 12px;
         }
+.application-header-subpoint {
+  font-size: 12px;
+  text-align: center;
+  color: brown;
+}
+
+.application-header-subpoint ul {
+  list-style-type: disc;
+  list-style-position: outside;  /* changed from inside */
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 16px;  /* gives space for the bullet to render outside */
+}
+.application-header-subpoint ul {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  padding-left: 16px !important;
+}
+
+.application-header-subpoint ul li::marker {
+  color: brown;
+  font-size: 1rem;
+}
+
+.application-header-subpoint ul li {
+  display: list-item !important;  /* resets any display:block/flex override */
+}
 
         .application-header-title {
           font-family: 'Cormorant Garamond', serif;
@@ -95,6 +123,7 @@
           font-weight: 300;
           color: #261e1b;
           letter-spacing: 0.5px;
+          text-align: center;
         }
 
         .divider {

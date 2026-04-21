@@ -1,0 +1,41 @@
+.lp-apply-now {
+    text-align: center;
+    background-image: linear-gradient(rgb(229, 148, 120), rgb(252, 143, 27));
+    border-radius: 25px;
+    text-transform: capitalize;
+    width: 25rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    /* shine layer */
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 60%;
+        height: 100%;
+        background: linear-gradient(
+            120deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.55) 50%,
+            transparent 100%
+        );
+        transform: skewX(-20deg);
+        transition: left 0.5s ease;
+    }
+
+    &:hover {
+       
+        &::after {
+            left: 150%; /* sweeps the shine across */
+        }
+    }
+}

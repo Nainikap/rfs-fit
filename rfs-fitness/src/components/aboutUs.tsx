@@ -3,12 +3,14 @@ import React from "react";
 import "../styles/AboutUs.css";
 import { Link } from "react-router-dom";
 import Navbar from "./navbar";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import RoundedPointer from "./roundedPointer";
 
 const stats = [
-  { num: "24/7", label: "Support", sub: "Always on" },
-  { num: "30+", label: "Working", sub: "Professionals" },
-  { num: "100+", label: "Countries", sub: "Operational" },
-  { num: "100%", label: "Personalised", sub: "Programmes" },
+  { num: "30+", label: "Clients coached across 3 countries" },
+  { num: "90", label: "Days Average time to visible transformation", },
+  { num: "94%", label: "Client retention rate after first month", },
+  { num: "100%", label: "Personalised Programmes", },
 ];
 
 const coaches = [
@@ -108,19 +110,29 @@ export default function AboutUs(){
           Redefined<br />
           <span className="rfs-orange">Fitness Solutions</span>
         </h2> */}
+        <div className="rfs-coaches-label">
+        <p className="rfs-eyebrow">Meet the coaches</p>
+      </div>
+      <div className="rfs-coach-banner">
+        <img src="/banner.jpeg" />
+      </div>
         <div className="brand-about">
-        <p className="rfs-brand-body">
-          In a crowded fitness landscape, sustainable results demand more than effort and
-          commitment. They require structure, clarity and sustainability.
+        <p className="rfs-brand-heading">
+          Why <span style={{color:"#ff6b00"}}>RFS?</span>
+
+
         </p>
-        <p className="rfs-brand-body">
-          At RFS Fitness, we bridge the gap for busy working professionals, founders, managers
-          and executives who understand discipline but need a system that works with their lives.
+        <p className="rfs-brand-body fs-3 ">
+          200+ clients transformed the world 
+
         </p>
-        <p className="rfs-brand-body">
-          We're not chasing trends. We're building standards that support your professional edge.
-        </p>
-        {/* <p className="rfs-brand-handle">@rfsfitness</p> */}</div>
+       <div className="rfs-brand-description">
+          <RoundedPointer text={"Personalised plans — no cookie-cutter templates"}/>
+          <RoundedPointer text={"Nutrition + training + accountability, everything personalised"}/>
+          <RoundedPointer text={"Results in 8–12 weeks, backed by weekly check-ins"}/>
+          <RoundedPointer text={"Coaches responds personally not a chatbot"}/>
+</div>
+</div>
       </div>
 
       {/* ── Divider ── */}
@@ -129,14 +141,23 @@ export default function AboutUs(){
         <div className="rfs-divider-dot" />
         <div className="rfs-divider-line" />
       </div> */}
+       {/* ── Stats Bar ── */}
+      <div className="rfs-stats">
+        {stats.map((s) => (
+          <div className="rfs-stat" key={s.label}>
+            <div className="rfs-stat-top" />
+            <div className="rfs-stat-num">{s.num}</div>
+            <div className="rfs-stat-label">
+              {s.label}
+              <br />
+            
+            </div>
+          </div>
+        ))}
+      </div>
 
       {/* ── Coaches ── */}
-      <div className="rfs-coaches-label">
-        <p className="rfs-eyebrow">Meet the coaches</p>
-      </div>
-      <div className="rfs-coach-banner">
-        <img src="/banner.jpeg" />
-      </div>
+      
       <div className="rfs-coaches">
         {coaches.map((coach) => (
           <div className="rfs-coach" key={coach.name}>
@@ -162,24 +183,11 @@ export default function AboutUs(){
 
       
 
-      {/* ── Stats Bar ── */}
-      <div className="rfs-stats">
-        {stats.map((s) => (
-          <div className="rfs-stat" key={s.label}>
-            <div className="rfs-stat-top" />
-            <div className="rfs-stat-num">{s.num}</div>
-            <div className="rfs-stat-label">
-              {s.label}
-              <br />
-              {s.sub}
-            </div>
-          </div>
-        ))}
-      </div>
+     
 
       {/* ── Programmes ── */}
       <div className="rfs-prog-header">
-        <p className="rfs-eyebrow">What we offer</p>
+        <p className="rfs-eyebrow" style={{paddingTop:"2rem"}}>What we offer</p>
         <h2 className="rfs-prog-heading">
           Our <span className="rfs-orange">Programmes</span>
         </h2>

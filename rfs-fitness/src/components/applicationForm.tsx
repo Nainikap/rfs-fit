@@ -165,9 +165,18 @@ export default function ApplicationForm() {
           <div className="application-header">
             
             <div className="application-header-text">
-                <div className="application-header-eyebrow">Redefined Fitness Solution</div>
+                <div className="application-header-eyebrow">Redefined Fitness Solutions</div>
                 <div className="application-header-title">Book Your <em>Session</em></div>
-                <div className="application-header-sub">Select a date and time to get started</div>
+                <div className="application-header-sub">What Happens In Your Strategy Call</div>
+                <div className="application-header-subpoint">
+                  <ol>
+                    <li>We identify what’s blocking your progress</li>
+                    <li>We build your personalised starting plan</li>
+                    <li>We map your next 90 days</li>
+
+                  </ol>
+                </div>
+
                 <div className="divider">
                 <div className="divider-line"></div>
                 <div className="divider-dot"></div>

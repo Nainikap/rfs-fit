@@ -12,6 +12,7 @@ import ErrorBoundary from './components/errorBoundary'
 import FitnessVideo from './components/fitnessVideo'
 import "./chartConfig";
 import LandingPage from './components/landingPage'
+// import LPApplyNow from './components/LPApplyNow'
 const CARDS = [
   { text: "have a plan that fits your lifestyle" },
   { text: "track your progress easily" },
@@ -72,8 +73,7 @@ const video = scrollRef.current?.querySelector('video');
       {/* section 2 */}
       <div className='section-2'>
         <div className='section-2-text'>
-          <div className='top-text'>What Would Life Look Like
-            If Fat Loss Felt.....</div>
+          <div className='top-text'>What If Fat Loss Felt Normals And Actually Lasted?</div>
           <div className='bottom-text'>Normal?</div>
 
         </div>
@@ -194,12 +194,12 @@ approach that works for</p>
         <div className='box-in'>A plan that fits your life</div>
         
       </div>
-      <ApplyNow/>
+      <ApplyNow text={"I'm Ready"}/>
     </div>
   </div>
   <div className='section-9'>
     <div className='heading'>
-      What Happens When You Apply?
+     Here's Exactly What Happens When You Apply
 
     </div>
     <div className='graph'>
@@ -225,7 +225,7 @@ approach that works for</p>
   <div className='section-11'>
     <div className='section-11-text'>or take control</div>
     <div className='section-11-apply'>
-    <ApplyNow/>
+    <ApplyNow text={"Start My Transformation"}/>
 
     </div>
    

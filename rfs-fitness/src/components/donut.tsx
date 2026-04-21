@@ -32,9 +32,9 @@ useEffect(() => {
   if (!mounted) return null;
     const data = {
     labels: [
-      "Understand your actual roadblocks ",
-      "Get clarity on your portion patterns",
-      "Lose 3–6 kg in the next few weeks",
+      "Step 1: The Audit. We dive into your current lifestyle, roadblocks, and metabolic history.",
+      "Step 2: The Blueprint. You receive a custom-built roadmap that fits into your 60-hour work week.",
+      "⁠Step 3: The Transformation. 1-on-1 accountability to ensure the weight stays off for good."
     ],
     datasets: [
       {

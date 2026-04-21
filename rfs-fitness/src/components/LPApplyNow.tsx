@@ -1,7 +1,7 @@
 "use client"
 
 import {BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
-import '../styles/ApplyNow.css'
+import '../styles/LPApplyNow.css'
 import ApplicationForm from './applicationForm';
 <BrowserRouter>
   <Routes>
@@ -10,18 +10,18 @@ import ApplicationForm from './applicationForm';
 </BrowserRouter>
 interface source{
   text: string,
-  // width: string,
+//   width: string,
 }
 
-const ApplyNow = ({text} : source) =>{
+const LPApplyNow = ({text} : source) =>{
     return(
         <nav>
 
            <NavLink to={"/apply"}>
-        <div className='apply-now'>{text}</div>
+        <div className='lp-apply-now'>{text}</div>
             </NavLink>
         </nav>
     )
 
 };
-export default ApplyNow;
+export default LPApplyNow;

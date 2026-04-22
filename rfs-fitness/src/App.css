@@ -37,7 +37,7 @@
     }
 
     .bottom-text {
-      font-size: 4rem;
+      font-size: 3rem;
       font-family: 'Anton', sans-serif;
       text-transform: capitalize;
       color: #ff6b00;
@@ -531,12 +531,11 @@ text-transform: uppercase;
   
 }
 .clickables{
-  position: relative;
-  z-index: 4;
-    padding: 1rem;
-    text-align: right;
-    background-color: black;
-  }
+  position: fixed;
+  z-index: 999;
+  bottom: 1rem;
+  right: 1rem;
+}
 
 
 /* Tablet */

@@ -73,8 +73,8 @@ const video = scrollRef.current?.querySelector('video');
       {/* section 2 */}
       <div className='section-2'>
         <div className='section-2-text'>
-          <div className='top-text'>What If Fat Loss Felt Normals And Actually Lasted?</div>
-          <div className='bottom-text'>Normal?</div>
+          <div className='top-text'>What If Fat Loss Felt Normals </div>
+          <div className='bottom-text'>And Actually Lasted?</div>
 
         </div>
         <div className='section-2-images'>

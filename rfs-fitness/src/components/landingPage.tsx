@@ -11,7 +11,7 @@ const LandingPage = () =>{
         
         <div className='lp'>
             <div className='lp-bg'>
-    <div style={{ margin: "90px" }} />
+    {/* <div style={{ margin: "90px" }} /> */}
                  
                 <div className='lp-text'>
                     
@@ -29,9 +29,11 @@ const LandingPage = () =>{
                     // width={720}
                     // height={390}
                     thumbnail={"lp_thumb.png"}
-                    /></div>
-                    <div className='lp-cta' style={{paddingTop:"10px"}}>
+                    />
+                     <div className='lp-cta' style={{paddingTop:"10px"}}>
                     <LPApplyNow text={"I'M READY TO START"} /></div>
+                    </div>
+                   
             </div>
                 <div className='lp-left'>
                 

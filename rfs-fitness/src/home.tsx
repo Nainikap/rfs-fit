@@ -79,16 +79,16 @@ const video = scrollRef.current?.querySelector('video');
         </div>
         <div className='section-2-images'>
           <div className='section-2-compare'>
-            <img src='/transformation 1A.jpeg' alt='transformation'/>
-            <img src='/transformation 1B.jpeg' alt='transformation'/>
+            <img src='/transformation 1A.png' alt='transformation'/>
+            <img src='/transformation 1B.png' alt='transformation'/>
             <img src='/transformation 2A.png' alt='transformation'/>
-            <img src='/transformation 2B.jpeg' alt='transformation'/>
+            <img src='/transformation 2B.png' alt='transformation'/>
           </div>
            <div className='section-2-compare'>
-            <img src='/transformation 3A.jpeg' alt='transformation'/>
+            <img src='/transformation 3A.png' alt='transformation'/>
             <img src='/transformation 3B.png' alt='transformation'/>
-            <img src='/transformation 4A.jpeg' alt='transformation'/>
-            <img src='/transformation 4B.jpeg' alt='transformation'/>
+            <img src='/transformation 4A.png' alt='transformation'/>
+            <img src='/transformation 4B.png' alt='transformation'/>
 
           </div>
           </div>

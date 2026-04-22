@@ -27,7 +27,7 @@ const FitnessVideo = ({
     display: "block",
     width: "100%",
     height: "100%",
-    objectFit: "cover", // 🔥 key fix
+    objectFit: "cover",
   }} poster={thumbnail}>
                 <source src={src} type={type}/>
                 Your browser does not support the video.

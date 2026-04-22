@@ -277,10 +277,18 @@
     height: 350px;
     padding-bottom: 30px;
   }
+  .rfs-brand-description{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
+  .rfs-brand-description{
+    display: flex;
+    flex-direction: column;
+  }
   .rfs-coach-banner {
     height: 220px;
     padding-bottom: 20px;

@@ -79,9 +79,9 @@ body{
 
 @media (max-width:768px){
   .nav .navbar a{
-    font-size: 18px;
+    font-size: 22px;
       font-weight: 100;
-  /* line-height: 08; */
+  line-height: 2;
 
   }
   .nav .navbar{
@@ -89,5 +89,6 @@ body{
   }
   .nav .header{
     padding: 10px 25px;
+    width: 350px;
   }
 }

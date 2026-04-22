@@ -4,9 +4,9 @@
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0;  }
 
         body {
-          background: #0b0c0e;
+          /* background: #0b0c0e; */
           font-family: 'DM Sans', sans-serif;
-          color: #e8e2d9;
+          /* color: #ffffff; */
           min-height: 100vh;
         }
 
@@ -18,7 +18,7 @@
           align-items: center;
           justify-content: center;
           padding: 40px 20px;
-          background: #f3f4f6;
+          background: #ffffff;
           position: relative;
           overflow: hidden;
         }
@@ -75,33 +75,17 @@
           margin-bottom: 12px;
         }
 .application-header-subpoint {
-  font-size: 12px;
-  text-align: center;
-  color: brown;
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width:768px){
+ .application-header-subpoint{
+   display: flex;
+  flex-direction: column;
+ }
 }
 
-.application-header-subpoint ul {
-  list-style-type: disc;
-  list-style-position: outside;  /* changed from inside */
-  width: fit-content;
-  margin: 0 auto;
-  text-align: left;
-  padding-left: 16px;  /* gives space for the bullet to render outside */
-}
-.application-header-subpoint ul {
-  list-style-type: disc !important;
-  list-style-position: outside !important;
-  padding-left: 16px !important;
-}
 
-.application-header-subpoint ul li::marker {
-  color: brown;
-  font-size: 1rem;
-}
-
-.application-header-subpoint ul li {
-  display: list-item !important;  /* resets any display:block/flex override */
-}
 
         .application-header-title {
           font-family: 'Cormorant Garamond', serif;
@@ -119,7 +103,9 @@
         }
 
         .application-header-sub {
-          font-size: 13px;
+        padding: .5rem 0 1rem;
+
+          font-size: 23px;
           font-weight: 300;
           color: #261e1b;
           letter-spacing: 0.5px;

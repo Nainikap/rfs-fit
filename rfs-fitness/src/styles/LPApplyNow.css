@@ -1,10 +1,10 @@
 .lp-apply-now {
     text-align: center;
-    background-image: linear-gradient(rgb(229, 148, 120), rgb(252, 143, 27));
+    background-image: linear-gradient(rgb(237, 149, 120), rgb(252, 109, 27));
     border-radius: 25px;
     text-transform: capitalize;
-    width: 25rem;
-    padding: 1rem 3rem;
+    width: 40rem;
+    padding: 1rem 5rem;
     display: inline-block;
     font-weight: bolder;
     text-decoration: none;
@@ -38,4 +38,10 @@
             left: 150%; /* sweeps the shine across */
         }
     }
+}
+
+@media(max-width: 768px){
+   .lp-apply-now{
+     width: 300px;  
+   }
 }

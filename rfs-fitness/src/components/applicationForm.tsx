@@ -3,6 +3,7 @@
 import { useState } from "react";
 import '../styles/ApplicationForm.css'
 import { NavLink } from "react-router-dom";
+import RoundedPointer from "./roundedPointer";
 const DAYS = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 const MONTHS = [
   "January","February","March","April","May","June",
@@ -169,13 +170,10 @@ export default function ApplicationForm() {
                 <div className="application-header-title">Book Your <em>Session</em></div>
                 <div className="application-header-sub">What Happens In Your Strategy Call</div>
                 <div className="application-header-subpoint">
-                  <ol>
-                    <li>We identify what’s blocking your progress</li>
-                    <li>We build your personalised starting plan</li>
-                    <li>We map your next 90 days</li>
-
-                  </ol>
-                </div>
+                  <RoundedPointer text={"We identify what’s blocking your progress"}/>
+                  <RoundedPointer text={"We build your personalised starting plan"}/>
+                  <RoundedPointer text={"We map your next 90 days"}/>
+                   </div>
 
                 <div className="divider">
                 <div className="divider-line"></div>

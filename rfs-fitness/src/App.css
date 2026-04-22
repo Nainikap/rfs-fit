@@ -473,6 +473,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   /* text-align: center; */
+  background-color: black;
   justify-content: center;
 
   padding: 3rem 3rem 1rem;
@@ -512,6 +513,7 @@ text-transform: uppercase;
 }
 .section-11{
   padding: 1rem 2rem 2rem;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -529,8 +531,11 @@ text-transform: uppercase;
   
 }
 .clickables{
+  position: relative;
+  z-index: 4;
     padding: 1rem;
     text-align: right;
+    background-color: black;
   }
 
 

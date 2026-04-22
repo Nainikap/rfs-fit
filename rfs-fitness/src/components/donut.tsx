@@ -32,9 +32,9 @@ useEffect(() => {
   if (!mounted) return null;
     const data = {
     labels: [
-      "Step 1: The Audit. We dive into your current lifestyle, roadblocks, and metabolic history.",
-      "Step 2: The Blueprint. You receive a custom-built roadmap that fits into your 60-hour work week.",
-      "⁠Step 3: The Transformation. 1-on-1 accountability to ensure the weight stays off for good."
+      "Step 1: The Audit.",
+      "Step 2: The Blueprint.",
+      "⁠Step 3: The Transformation."
     ],
     datasets: [
       {

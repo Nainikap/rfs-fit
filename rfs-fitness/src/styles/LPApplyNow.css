@@ -1,7 +1,8 @@
 .lp-apply-now {
     text-align: center;
-    background-image: linear-gradient(rgb(237, 149, 120), rgb(252, 109, 27));
-    border-radius: 25px;
+    /* background-image: linear-gradient(rgb(227, 189, 176), #ff6b00); */
+    background-color: #ff6b00;
+    border-radius: 20px;
     text-transform: capitalize;
     width: 40rem;
     padding: 1rem 5rem;

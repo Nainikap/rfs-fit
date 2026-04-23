@@ -230,9 +230,15 @@ approach that works for</p>
     </div>
    
   </div>
-   <div className='clickables'>
+   <div className='clickables' style={{display:"flex", gap:"5px"}}>
     <a href="https://wa.me/15551234567" target="_blank">
-    <img src="whatsapp.png" alt="Chat with us" width="50" height="50"/>
+    <img src="whatsapp.png" alt="Chat with us" width="40" height="40"/>
+</a>
+ <a href="https://wa.me/15551234567" target="_blank">
+    <img src="instagram.png" alt="Chat with us" width="40" height="40"/>
+</a>
+ <a href="https://wa.me/15551234567" target="_blank">
+    <img src="linkedin.png" alt="Chat with us" width="40" height="40"/>
 </a>
 </div>
     </div>

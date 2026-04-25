@@ -7,7 +7,7 @@ import Navbar from "./navbar";
 import RoundedPointer from "./roundedPointer";
 
 const stats = [
-  { num: "100+", label: "Professionals trained " },
+  { num: "100+", label: "Professionals trained across timezones" },
   { num: "90", label: "Days Average time to visible transformation", },
   { num: "94%", label: "Client retention rate after first month", },
   { num: "100%", label: "Personalised Programmes", },

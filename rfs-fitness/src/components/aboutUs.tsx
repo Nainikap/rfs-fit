@@ -42,7 +42,7 @@ const coaches = [
 
 const programmes = [
   {
-    tag: "Popular",
+    tag: "Need of the hour",
     tagType: "popular",
     name: "RFS Weight Loss",
     desc: "A results-driven programme to reduce body fat through structured nutrition, habit-building, and accountability.",
@@ -56,7 +56,7 @@ const programmes = [
     ],
   },
   {
-    tag: "Popular",
+    tag: "Need of the hour",
     tagType: "popular",
     name: "RFS Body Recomposition",
     desc: "Lose fat and build muscle simultaneously — combining nutritional strategy and fitness guidance to reshape your body.",
@@ -127,10 +127,10 @@ export default function AboutUs(){
 
         </p>
        <div className="rfs-brand-description">
-          <RoundedPointer text={"Personalised plans — no cookie-cutter templates"}/>
-          <RoundedPointer text={"Nutrition + training + accountability, everything personalised"}/>
-          <RoundedPointer text={"Results in 8–12 weeks, backed by weekly check-ins"}/>
-          <RoundedPointer text={"Coaches responds personally not a chatbot"}/>
+          <RoundedPointer text={"Personalised plans backed by daily checkins"}/>
+          <RoundedPointer text={"Nutrition + training + accountability"}/>
+          <RoundedPointer text={"results in 8-12 weeks guaranteed"}/>
+          <RoundedPointer text={"Coach G and coach J respond personally"}/>
 </div>
 </div>
       </div>

@@ -8,6 +8,8 @@
     padding: 1rem 5rem;
     display: inline-block;
     font-weight: bolder;
+  font-family: 'Arial Black', 'Impact', sans-serif;
+
     text-decoration: none;
     color: white;
     font-size: 23px;
@@ -33,12 +35,12 @@
         transition: left 0.5s ease;
     }
 
-    &:hover {
+    /* &:hover {
        
         &::after {
-            left: 150%; /* sweeps the shine across */
+            left: 150%; 
         }
-    }
+    } */
 }
 
 @media(max-width: 768px){

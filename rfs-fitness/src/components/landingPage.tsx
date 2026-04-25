@@ -18,7 +18,7 @@ const LandingPage = () =>{
                     <p className='rfs-heading'>You've Tried Everything. This Time, <span style={{color:"#ff6b00"}}><br/>It Actually Works</span></p>
                     {/* <p className='rfs-subtext'>"You've Tried Everything. This Time, It Actually Works."</p> */}
                     <i><p>
-                    Online coaching for busy professionals <br/> Real results in 90 days. No obsessing over food<br/>
+                    Elite online coaching for busy professionals <br/> Real results in 90 days. No obsessing over food<br/>
                     </p></i>
                     <div className='lp-video'>
                     <FitnessVideo

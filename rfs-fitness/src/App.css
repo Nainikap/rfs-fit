@@ -11,8 +11,8 @@
   display: flex;
 }
 
-.refund{
-  background-color: rgba(0, 0, 0, 0.508);
+/* .refund{
+  background-color: rgba(255, 85, 0, 0.508);
   height: 110px;
   width: 110px;
   border-radius: 50%;
@@ -20,20 +20,18 @@
   overflow: hidden;
   align-items: center;
   text-transform: uppercase;
-  /* font-weight: 300; */
-  /* line-height: 1.2; */
+
   padding: 1rem; 
   text-align: center;
   font-weight: bold;
-  /* font-family: 'Anton', sans-serif; */
   font-size: 15px;
   position: fixed;
   bottom: 1rem;
   z-index: 999;
+  
 
   left: 1rem;
-  /* clip-path: circle(); */
-}
+} */
 
 /* section 2 */
 .section-2 {

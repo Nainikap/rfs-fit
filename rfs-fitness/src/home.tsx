@@ -242,9 +242,42 @@ approach that works for</p>
     <img src="linkedin.png" alt="Chat with us" width="40" height="40"/>
 </a>
 </div>
-<div className='refund'>
-          100% refund if not delivered
+<div style={{
+  position: 'fixed',
+  bottom: '1rem',
+  left: '1rem',
+  zIndex: 999,
+  width: 96,
+  height: 96,
+  borderRadius: '50%',
+  background: '#FF5500',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  textAlign: 'center',
+  padding: '10px',
+  boxSizing: 'border-box',
+  border: '3px solid #fff',
+  outline: '2px solid #FF5500',
+}}>
+  <span style={{ fontSize: 18, fontWeight: 900, color: '#fff', lineHeight: 1, fontFamily: "'Anton', Impact, sans-serif",overflow:"hidden", letterSpacing: 1 }}>100%</span>
+  <div style={{ width: 40, height: 1.5, background: 'rgba(255,255,255,0.5)', margin: '3px 0' }}></div>
+  <span style={{ fontSize: 9.5, fontWeight: 700, color: '#fff', textTransform: 'uppercase', letterSpacing: 0.5, lineHeight: 1.25, fontFamily: 'sans-serif' }}>REFUND IF NOT DELIVERED</span>
 
+  {/* Checkmark dot */}
+  <div style={{
+    position: 'absolute',
+    top: -6, right: -6,
+    width: 20, height: 20,
+    background: '#fff',
+    borderRadius: '50%',
+    display: 'flex', alignItems: 'center', justifyContent: 'center',
+  }}>
+    <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
+      <path d="M2 5.5L4.5 8L9 3" stroke="#FF5500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  </div>
 </div>
     </div>
   )

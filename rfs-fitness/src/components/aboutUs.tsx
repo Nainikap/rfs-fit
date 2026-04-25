@@ -7,7 +7,7 @@ import Navbar from "./navbar";
 import RoundedPointer from "./roundedPointer";
 
 const stats = [
-  { num: "30+", label: "Clients coached across 3 countries" },
+  { num: "100+", label: "Professionals trained " },
   { num: "90", label: "Days Average time to visible transformation", },
   { num: "94%", label: "Client retention rate after first month", },
   { num: "100%", label: "Personalised Programmes", },
@@ -56,7 +56,7 @@ const programmes = [
     ],
   },
   {
-    tag: "Need of the hour",
+    tag: "Popular",
     tagType: "popular",
     name: "RFS Body Recomposition",
     desc: "Lose fat and build muscle simultaneously — combining nutritional strategy and fitness guidance to reshape your body.",
@@ -123,14 +123,14 @@ export default function AboutUs(){
 
         </p>
         <p className="rfs-brand-body fs-3 ">
-          200+ clients transformed the world 
+          200+ clients transformed across the world 
 
         </p>
        <div className="rfs-brand-description">
           <RoundedPointer text={"Personalised plans backed by daily checkins"}/>
           <RoundedPointer text={"Nutrition + training + accountability"}/>
-          <RoundedPointer text={"results in 8-12 weeks guaranteed"}/>
-          <RoundedPointer text={"Coach G and coach J respond personally"}/>
+          <RoundedPointer text={"Results in 8-12 weeks guaranteed"}/>
+          <RoundedPointer text={"Coach G & coach J respond personally"}/>
 </div>
 </div>
       </div>

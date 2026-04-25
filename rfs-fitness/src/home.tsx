@@ -71,6 +71,9 @@ const video = scrollRef.current?.querySelector('video');
         
 <LandingPage/>
       {/* section 2 */}
+      <div className='refund-section'>
+        100% refund if not delivered
+      </div>
       <div className='section-2'>
         <div className='section-2-text'>
           <div className='top-text'>What If Fat Loss Felt Normals </div>

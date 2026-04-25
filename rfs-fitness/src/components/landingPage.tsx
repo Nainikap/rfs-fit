@@ -7,11 +7,10 @@ import LPApplyNow from './LPApplyNow';
 
 const LandingPage = () =>{
     return (
-    <div className='landing-page '>
+  
         
         <div className='lp'>
             <div className='lp-bg'>
-    {/* <div style={{ margin: "90px" }} /> */}
                  
                 <div className='lp-text'>
                     
@@ -49,6 +48,6 @@ const LandingPage = () =>{
             
           {/* //add video */}
               </div>
-      </div>
+      
 )}
       export default LandingPage;

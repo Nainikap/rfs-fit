@@ -244,6 +244,10 @@ approach that works for</p>
     <img src="linkedin.png" alt="Chat with us" width="40" height="40"/>
 </a>
 </div>
+<div className='refund'>
+          100% refund if not delivered
+
+</div>
     </div>
   )
 }

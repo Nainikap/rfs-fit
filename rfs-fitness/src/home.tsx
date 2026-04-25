@@ -65,9 +65,9 @@ const video = scrollRef.current?.querySelector('video');
 
   return (
     <div id="top">
-    <div className='navBar' >
+    {/* <div className='navBar' >
+        </div> */}
         <Navbar/>
-        </div>
         
 <LandingPage/>
       {/* section 2 */}

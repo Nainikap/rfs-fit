@@ -120,7 +120,7 @@ export default function ApplicationForm() {
               You're all <em>set</em>,<br />{form.name.split(" ")[0]}
             </div>
             <div className="confirm-body">
-              Your session has been successfully scheduled. Our fitness coach will be in touch with you shortly to prepare your personalised programme.
+              Your session has been successfully scheduled. Our fitness coach will be in touch with you shortly to prepare your personalised program.
             </div>
             <div className="confirm-details">
               <div className="confirm-detail-row">

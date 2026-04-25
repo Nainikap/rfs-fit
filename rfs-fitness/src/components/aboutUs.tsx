@@ -10,7 +10,7 @@ const stats = [
   { num: "100+", label: "Professionals trained across timezones" },
   { num: "90", label: "Days Average time to visible transformation", },
   { num: "94%", label: "Client retention rate after first month", },
-  { num: "100%", label: "Personalised Programmes", },
+  { num: "100%", label: "Personalised Programs", },
 ];
 
 const coaches = [
@@ -45,7 +45,7 @@ const programmes = [
     tag: "Need of the hour",
     tagType: "popular",
     name: "RFS Weight Loss",
-    desc: "A results-driven programme to reduce body fat through structured nutrition, habit-building, and accountability.",
+    desc: "A results-driven program to reduce body fat through structured nutrition, habit-building, and accountability.",
     features: [
       "Initial Consultation",
       "24/7 Support",
@@ -110,7 +110,7 @@ export default function AboutUs(){
           Redefined<br />
           <span className="rfs-orange">Fitness Solutions</span>
         </h2> */}
-        <div className="rfs-coaches-label">
+        <div className="rfs-coaches-label" style={{paddingTop:"50px"}}>
         <p className="rfs-eyebrow">Meet the coaches</p>
       </div>
       <div className="rfs-coach-banner">
@@ -189,11 +189,11 @@ export default function AboutUs(){
       <div className="rfs-prog-header">
         <p className="rfs-eyebrow" style={{paddingTop:"2rem"}}>What we offer</p>
         <h2 className="rfs-prog-heading">
-          Our <span className="rfs-orange">Programmes</span>
+          Our <span className="rfs-orange">Programs</span>
         </h2>
       </div>
 
-      <div className="rfs-programmes">
+      <div className="rfs-programmes" style={{paddingBottom:"4rem"}}>
         {programmes.map((prog) => (
           <div className="rfs-prog" key={prog.name}>
             <div className="rfs-prog-accent-corner" />

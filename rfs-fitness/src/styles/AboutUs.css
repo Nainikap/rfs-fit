@@ -22,8 +22,8 @@
 .rfs-about {
     background-color: white;
   font-family: var(--rfs-font-body);
-  padding: 40px 24px;
-  max-width: 100%;
+  /* padding: 40px 24px; */
+  /* max-width: 100%; */
 }
 
 .rfs-orange {
@@ -509,9 +509,9 @@
 
 /* ── Responsive ── */
 @media (max-width: 700px) {
-  .rfs-about {
+  /* .rfs-about {
     padding: 60px 16px;
-  }
+  } */
 
   .rfs-coaches {
     grid-template-columns: 1fr;
